@@ -1,0 +1,114 @@
+/* Site chrome: header, mobile menu, footer links, skip link. Brand tokens only. */
+.skip-link {
+  position: fixed; left: 1rem; top: 1rem; z-index: 100;
+  padding: 0.75rem 1rem; background: var(--color-midnight); color: var(--color-white); font-weight: 650;
+  transform: translateY(-200%);
+}
+.skip-link:focus-visible { transform: none; }
+
+.site-header {
+  position: fixed; inset: 0 0 auto 0; z-index: 50;
+  color: var(--color-white);
+  transition: background-color 300ms var(--ease-out-soft), color 300ms var(--ease-out-soft), box-shadow 300ms var(--ease-out-soft);
+}
+.site-header[data-solid] { background: var(--color-white); color: var(--color-midnight); box-shadow: 0 1px 0 var(--color-lavender); }
+.site-header-inner { display: flex; align-items: center; gap: 2rem; height: 4.5rem; padding: 0 1rem; max-width: 1440px; margin: 0 auto; }
+@media (min-width: 768px) { .site-header-inner { padding: 0 2rem; height: 5.5rem; } }
+@media (min-width: 1280px) { .site-header-inner { padding: 0 3rem; } }
+
+.site-logo { display: grid; align-items: center; min-height: 48px; flex-shrink: 0; }
+.site-logo > span { grid-area: 1 / 1; transition: opacity 300ms var(--ease-out-soft); }
+.site-logo svg { height: 2.25rem; width: auto; }
+.site-logo img { max-height: 2.25rem; }
+@media (min-width: 768px) { .site-logo svg { height: 2.5rem; } }
+@media (min-width: 768px) { .site-logo img { max-height: 2.5rem; } }
+.site-header:not([data-solid]) .logo-dark, .site-header[data-solid] .logo-light { opacity: 0; }
+
+.site-nav { display: none; margin-left: auto; }
+.site-nav ul { display: flex; gap: 2.25rem; }
+.site-nav a {
+  position: relative; display: inline-block; padding: 0.5rem 0; font-weight: 600; font-size: 1.0625rem;
+}
+/* A short rule draws in under the link: the threshold line. */
+.site-nav a::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0.15rem; height: 2px; background: currentColor;
+  transform: scaleX(0); transform-origin: left; transition: transform 320ms var(--ease-out-soft);
+}
+.site-nav a:hover::after, .site-nav a[aria-current="page"]::after { transform: scaleX(1); }
+.site-cta {
+  display: none; align-items: center; min-height: 3rem; padding: 0 1.25rem; font-weight: 650;
+  background: var(--color-royal); color: var(--color-white); transition: background-color 200ms var(--ease-out-soft);
+}
+.site-cta:hover { background: var(--color-midnight); }
+.site-header:not([data-solid]) .site-cta:hover { background: var(--color-white); color: var(--color-midnight); }
+@media (min-width: 1100px) {
+  .site-nav { display: block; }
+  .site-cta { display: inline-flex; }
+  .site-header .menu-button:not(.menu-close) { display: none; }
+}
+
+.menu-button {
+  margin-left: auto; min-height: 3rem; padding: 0 1rem; font-weight: 650; font-size: 1.0625rem;
+  box-shadow: inset 0 0 0 2px currentColor;
+}
+
+/* Full-screen menu. Opens with the Threshold arch rising from the floor. */
+.menu[open] {
+  display: flex; flex-direction: column; gap: 2rem;
+  width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 1rem 1rem 2rem;
+  background: var(--color-midnight); color: var(--color-white); border: 0; overflow-y: auto;
+}
+@media (min-width: 768px) { .menu[open] { padding: 1.25rem 2rem 3rem; } }
+.menu::backdrop { background: transparent; }
+.menu-top { display: flex; justify-content: flex-end; min-height: 3.25rem; align-items: center; }
+.menu-links { display: grid; gap: 0.25rem; }
+.menu-links a { display: block; padding: 0.4rem 0; font-size: clamp(2rem, 9vw, 3.25rem); font-weight: 600; letter-spacing: -0.025em; line-height: 1.15; }
+.menu-links a:hover { color: var(--color-lavender); }
+.menu-cta { align-self: flex-start; min-height: 3.5rem; font-size: 1.125rem; margin-top: auto; }
+:root:has(.menu[open]) { overflow: hidden; }
+@media (prefers-reduced-motion: no-preference) {
+  .menu[open] { animation: menu-arch 560ms cubic-bezier(0.65, 0, 0.35, 1) both; }
+  .menu[open] .menu-links li { animation: menu-line 520ms cubic-bezier(0.22, 1, 0.36, 1) both; animation-delay: calc(200ms + var(--i) * 45ms); }
+}
+@keyframes menu-arch { from { clip-path: inset(70% 35% 0 35% round 999px 999px 0 0); } to { clip-path: inset(0 0 0 0 round 0 0 0 0); } }
+@keyframes menu-line { from { opacity: 0; transform: translateY(1rem); } }
+
+.footer-link { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.25em; transition: text-decoration-color 200ms; }
+.footer-link:hover { text-decoration-color: currentColor; }
+
+/* Page transitions: a short crossfade with a slight rise on the incoming page. */
+.site-header { view-transition-name: site-header; }
+::view-transition-old(.page-fade) { animation: 160ms cubic-bezier(0.4, 0, 1, 1) both page-out; }
+::view-transition-new(.page-fade) { animation: 260ms cubic-bezier(0.22, 1, 0.36, 1) 60ms both page-in; }
+@keyframes page-out { to { opacity: 0; } }
+@keyframes page-in { from { opacity: 0; transform: translateY(12px); } }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}
+
+/* Footer: the closing chapter. One closing line, one way in, one index, the logo last. */
+.ft { background: var(--color-midnight); color: var(--color-white); padding: clamp(3.5rem, 9vw, 8rem) 1rem 1.75rem; overflow: hidden; }
+@media (min-width: 640px) { .ft { padding-inline: 2rem; } }
+@media (min-width: 1024px) { .ft { padding-inline: 3rem; } }
+.ft-wrap { max-width: 1320px; margin-inline: auto; }
+.ft-close { display: grid; gap: 2.5rem; }
+@media (min-width: 1024px) { .ft-close { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 4rem; align-items: end; } }
+.ft-line { font-size: clamp(2rem, 5.2vw, 4.75rem); font-weight: 600; line-height: 1.04; letter-spacing: -0.03em; max-width: 16ch; text-wrap: balance; }
+.ft-reach { border-top: 1px solid rgb(220 223 245 / 0.25); padding-top: 1.5rem; }
+@media (min-width: 1024px) { .ft-reach { border-top: 0; border-left: 1px solid rgb(220 223 245 / 0.25); padding: 0.25rem 0 0.5rem 2.5rem; } }
+.ft-cta { display: inline-flex; align-items: center; min-height: 48px; font-size: clamp(1.375rem, 2.2vw, 1.75rem); font-weight: 600; letter-spacing: -0.01em; text-decoration: underline; text-decoration-color: var(--color-royal); text-decoration-thickness: 2px; text-underline-offset: 0.3em; transition: text-decoration-color 200ms, color 200ms; }
+.ft-cta:hover { text-decoration-color: var(--color-lavender); }
+.ft-cta span { display: inline-block; margin-left: 0.35em; transition: transform 240ms cubic-bezier(0.16, 1, 0.3, 1); }
+.ft-cta:hover span { transform: translateX(4px); }
+.ft-contact { margin-top: 1.25rem; display: grid; gap: 0.25rem; }
+.ft-contact > div { display: grid; grid-template-columns: 3.75rem minmax(0, 1fr); align-items: baseline; }
+.ft-contact dt { font-size: var(--text-small); color: var(--color-lavender); }
+.ft-contact dd { overflow-wrap: anywhere; }
+.ft-contact dd:not(:has(a)) { color: var(--color-lavender); padding-block: 0.6rem; }
+.ft-nav { margin-top: clamp(3.5rem, 7vw, 6rem); padding-top: 1.25rem; border-top: 1px solid rgb(220 223 245 / 0.25); }
+.ft-nav ul { display: flex; flex-wrap: wrap; gap: 0 2.25rem; font-size: clamp(1.0625rem, 1.4vw, 1.25rem); font-weight: 500; }
+/* The logo is sized by height so any CMS logo, wide or square, keeps its proportions. */
+.ft-mark { margin-top: clamp(3rem, 7vw, 6rem); height: clamp(4rem, 11vw, 10.5rem); }
+.ft-mark img, .logo-fluid { display: block; height: 100%; width: auto; max-width: 100%; }
+.ft-legal { margin-top: clamp(1.5rem, 3vw, 2.5rem); padding-top: 1rem; border-top: 1px solid rgb(220 223 245 / 0.25); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 2rem; font-size: var(--text-small); color: var(--color-lavender); }
+.ft-legal ul { display: flex; gap: 0 1.5rem; }

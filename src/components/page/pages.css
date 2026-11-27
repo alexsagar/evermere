@@ -1,0 +1,284 @@
+/* Internal pages. Shared type and primitives first, then one block per page.
+   Brand tokens only. Every page clears the fixed header (4.5rem / 5.5rem). */
+
+/* Shared links (homepage and internal pages) */
+.text-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 1rem; font-weight: 650; color: var(--color-royal); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.3em; }
+.text-link:hover { color: var(--color-midnight); }
+/* Royal on Lavender is 4.26:1; links on Lavender sections use Midnight (underline carries the affordance). */
+:is(.oh-detail, .ac-notes, .ls-interests, .ab-pair, .ab-close, .ar-talk, .fq-open) .text-link:not(.text-link-light) { color: var(--color-midnight); }
+.text-link-light { color: var(--color-white); }
+.text-link-light:hover { color: var(--color-lavender); }
+
+/* Shared type ---------------------------------------------------------------- */
+.pg-kicker { font-size: var(--text-small); font-weight: 650; color: var(--color-royal); }
+.surface-dark .pg-kicker { color: var(--color-lavender); }
+.pg-h1 { font-size: clamp(2.5rem, 5.6vw, 5rem); line-height: 1.06; letter-spacing: -0.035em; font-weight: 600; max-width: 16ch; }
+.pg-h2 { font-size: clamp(1.875rem, 3.6vw, 3.25rem); line-height: 1.08; letter-spacing: -0.025em; font-weight: 600; max-width: 20ch; }
+.pg-h3 { font-size: clamp(1.375rem, 2vw, 1.75rem); line-height: 1.2; letter-spacing: -0.015em; font-weight: 600; }
+.pg-lead { font-size: var(--text-lead); line-height: 1.55; max-width: 52ch; }
+.pg-h1 + .pg-lead, .pg-h2 + .pg-lead, .pg-h2 + p, .pg-h3 + p { margin-top: 1.25rem; }
+p + p, .pg-lead + .pg-lead { margin-top: 1rem; }
+.pg-body { max-width: 60ch; }
+.pg-points { margin-top: 1.5rem; display: grid; gap: 0.75rem; max-width: 60ch; }
+.pg-points li { padding-left: 1.25rem; position: relative; }
+.pg-points li::before, .ac-features li::before, .ac-checklist li::before, .ls-list li::before { content: ""; position: absolute; left: 0; top: 0.8em; width: 0.6rem; height: 2px; background: var(--color-royal); }
+[data-m="split"] { line-height: 1.08; }
+
+.pg-related { max-width: 1320px; margin: 0 auto; padding: 4rem 1rem 6rem; border-top: 1px solid var(--color-lavender); }
+.pg-related-title { font-size: var(--text-small); font-weight: 650; color: var(--color-royal); }
+.pg-related ul { display: flex; flex-wrap: wrap; gap: 0.5rem 2.5rem; margin-top: 1rem; }
+.pg-related-link { display: inline-flex; align-items: center; min-height: 44px; font-size: clamp(1.25rem, 2.2vw, 1.75rem); font-weight: 600; letter-spacing: -0.015em; text-decoration: underline; text-decoration-color: var(--color-lavender); text-decoration-thickness: 2px; text-underline-offset: 0.3em; }
+.pg-related-link:hover { text-decoration-color: var(--color-royal); }
+.pg-related-lead { display: inline-block; margin-top: 0.75rem; max-width: 100%; overflow-wrap: break-word; font-size: clamp(2rem, 6vw, 5.5rem); font-weight: 600; line-height: 1.04; letter-spacing: -0.035em; text-decoration: underline; text-decoration-color: var(--color-lavender); text-decoration-thickness: 3px; text-underline-offset: 0.18em; }
+.pg-related-lead:hover { text-decoration-color: var(--color-royal); }
+.pg-related-lead::after { content: "\2192"; margin-left: 0.4em; color: var(--color-royal); transition: transform 0.3s var(--ease-out, ease); }
+.pg-related-lead:hover::after { transform: translateX(0.15em); }
+.pg-related-next ul { margin-top: 2.5rem; }
+.pg-related-cta { margin-top: 3rem; }
+.pg-related-invite { max-width: none; display: grid; gap: 3rem; align-items: end; background: var(--color-midnight); color: var(--color-white); border: 0; }
+.pg-related-invite .pg-related-title { color: var(--color-lavender); }
+.pg-related-invite .pg-related-link { text-decoration-color: var(--color-royal); }
+.pg-related-invite .pg-related-link:hover { text-decoration-color: var(--color-lavender); }
+.pg-related-invite .pg-related-cta { margin: 0; justify-self: start; background: var(--color-white); color: var(--color-midnight); }
+@media (min-width: 768px) { .pg-related { padding: 5rem 2rem 7rem; } }
+@media (min-width: 1024px) { .pg-related-invite { grid-template-columns: 1fr auto; padding-left: max(3rem, calc((100vw - 1320px) / 2)); padding-right: max(3rem, calc((100vw - 1320px) / 2)); } }
+@media (min-width: 1024px) { .pg-related { padding: 5rem 3rem 8rem; } }
+
+/* Rich text ------------------------------------------------------------------ */
+.prose { font-size: 1.1875rem; line-height: 1.7; max-width: 66ch; }
+.prose > * + * { margin-top: 1.1em; }
+.prose .prose-h { margin-top: 2.2em; font-size: 1.5rem; line-height: 1.25; letter-spacing: -0.015em; font-weight: 600; }
+.prose ul { display: grid; gap: 0.6em; padding-left: 1.25rem; list-style: disc; }
+.prose ul li::marker { color: var(--color-royal); }
+
+/* Sticky swap (shared by Amenities and others) --------------------------------- */
+.swap-stage { display: none; }
+.sw-item { padding: 2.5rem 0; border-top: 1px solid var(--color-lavender); }
+.swap-inline { margin-bottom: 1.75rem; overflow: hidden; }
+@media (min-width: 1024px) {
+  .swap { display: grid; grid-template-columns: 6fr 5fr; gap: 5rem; }
+  .swap-right { grid-template-columns: 5fr 6fr; }
+  .swap-right .swap-stage { order: 2; }
+  .swap-stage { display: block; position: sticky; top: 8rem; align-self: start; }
+  .swap-frame { position: relative; overflow: hidden; background: var(--color-midnight); }
+  .swap-layer { position: absolute; inset: 0; opacity: 0; transform: scale(1.03); transition: opacity 600ms var(--ease-out-soft), transform 900ms var(--ease-out-soft); }
+  .swap-layer[data-active] { opacity: 1; transform: none; }
+  .swap-caption { margin-top: 1rem; font-weight: 650; }
+  .swap-caption span { color: var(--color-royal); margin-right: 0.5rem; }
+  .swap-inline { display: none; }
+  .sw-item { min-height: 85svh; padding: 3rem 0; position: relative; }
+  .sw-item::before { content: ""; position: absolute; left: 0; right: 0; top: -1px; height: 3px; background: var(--color-royal); transform: scaleX(0); transform-origin: left; transition: transform 600ms var(--ease-out-soft); }
+  .sw-item[data-active]::before { transform: scaleX(1); }
+}
+@media (prefers-reduced-motion: reduce) { .swap-layer { transition: opacity 200ms ease; transform: none; } }
+
+/* Our home: an architectural publication ------------------------------------- */
+.oh-cover { display: grid; gap: 2.5rem; padding: 7.5rem 1rem 4rem; background: var(--color-cloud); }
+.oh-title { font-size: clamp(2.75rem, 7.4vw, 7rem); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600; margin-top: 1rem; max-width: 12ch; }
+.oh-cover .pg-lead { margin-top: 2rem; }
+.oh-cover-photo { position: relative; aspect-ratio: 4 / 5; overflow: hidden; }
+.oh-arch { background: var(--color-cloud); padding-bottom: 6rem; }
+.oh-wide { position: relative; height: 72svh; min-height: 22rem; overflow: hidden; background: var(--color-midnight); }
+.oh-cols { display: grid; gap: 1.5rem; padding: 3rem 1rem 0; max-width: 1320px; margin: 0 auto; }
+.oh-commons { position: relative; background: var(--color-white); }
+.oh-commons-photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.oh-commons-text { position: relative; padding: 2rem 1rem 3rem; background: var(--color-midnight); color: var(--color-white); }
+.oh-commons-text p { color: var(--color-lavender); }
+.oh-rooms { display: grid; gap: 3rem; padding: 6rem 1rem; max-width: 1320px; margin: 0 auto; }
+.oh-schedule { margin-top: 2.5rem; display: grid; }
+.oh-schedule li { padding: 1.25rem 0; border-top: 1px solid var(--color-lavender); max-width: 56ch; }
+.oh-schedule strong { display: block; font-size: 1.375rem; letter-spacing: -0.015em; font-weight: 600; margin-bottom: 0.25rem; }
+.oh-rooms-photo figcaption { margin-top: 0.75rem; font-size: var(--text-small); }
+.oh-rooms-photo > div { overflow: hidden; }
+.oh-outside { background: var(--color-midnight); color: var(--color-white); padding: 6rem 1rem; }
+.oh-outside p { color: var(--color-lavender); margin-top: 1rem; max-width: 52ch; }
+.oh-outside-grid { display: grid; gap: 4rem; max-width: 1320px; margin: 0 auto; }
+.oh-court > div, .oh-shore > div { overflow: hidden; }
+.oh-detail { display: grid; gap: 3rem; padding: 6rem 1rem; background: var(--color-lavender); overflow: hidden; }
+.oh-detail-photo { position: relative; aspect-ratio: 3 / 4; width: 70%; }
+@media (min-width: 768px) {
+  .oh-cover { padding: 9rem 2rem 5rem; } .oh-cols, .oh-rooms, .oh-detail { padding-left: 2rem; padding-right: 2rem; }
+  .oh-outside { padding: 8rem 2rem; } .oh-commons-text { padding: 2.5rem 2rem 3.5rem; }
+}
+@media (min-width: 1024px) {
+  .oh-cover { grid-template-columns: 7fr 5fr; align-items: end; gap: 4rem; padding: 10rem 3rem 6rem; max-width: 1440px; margin: 0 auto; }
+  .oh-cover-photo { aspect-ratio: 3 / 4; }
+  .oh-wide { height: 90svh; }
+  .oh-cols { grid-template-columns: 5fr 6fr; gap: 4rem; padding: 4rem 3rem 0; }
+  .oh-commons { display: grid; grid-template-columns: 8fr 4fr; align-items: end; }
+  .oh-commons-photo { aspect-ratio: 16 / 11; }
+  .oh-commons-text { margin-left: -8rem; margin-bottom: 4rem; padding: 3rem; max-width: 34rem; }
+  .oh-rooms { grid-template-columns: 7fr 4fr; gap: 6rem; padding: 10rem 3rem; align-items: start; }
+  .oh-rooms-photo { position: sticky; top: 8rem; }
+  .oh-outside { padding: 10rem 3rem; }
+  .oh-outside-grid { grid-template-columns: 6fr 4fr; gap: 6rem; align-items: start; }
+  .oh-shore { margin-top: 12rem; }
+  .oh-detail { grid-template-columns: 4fr 7fr; gap: 6rem; align-items: center; padding: 10rem 3rem; }
+  .oh-detail-photo { width: 100%; }
+}
+
+/* Accommodations: three suite chapters ---------------------------------------- */
+.ac-open { display: grid; gap: 2.5rem; padding: 7.5rem 1rem 5rem; background: var(--color-white); }
+.ac-door { position: relative; aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; width: min(100%, 30rem); }
+.ac-open-text .pg-h1 { margin-top: 1rem; }
+.ac-suites { display: grid; }
+.ac-suite { display: grid; gap: 2rem; padding: 5rem 1rem; }
+.ac-suite-photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--color-midnight); }
+.ac-index { font-weight: 650; color: var(--color-royal); }
+.ac-suite .pg-h2 { margin-top: 0.5rem; }
+.ac-suite .prose { margin-top: 1.25rem; font-size: 1.125rem; }
+.ac-features, .ac-checklist { margin-top: 1.75rem; display: grid; gap: 0.6rem; }
+.ac-features li, .ac-checklist li { position: relative; padding-left: 1.25rem; }
+.ac-caption { margin-top: 1.5rem; font-size: var(--text-small); max-width: 52ch; }
+.ac-suite-0 { background: var(--color-cloud); }
+.ac-suite-1 { background: var(--color-midnight); color: var(--color-white); }
+.ac-suite-1 .ac-index, .ac-suite-1 .ac-caption { color: var(--color-lavender); }
+.ac-suite-1 .ac-features li::before { background: var(--color-lavender); }
+.ac-suite-1 .btn-primary { background: var(--color-white); color: var(--color-midnight); }
+.ac-suite-2 { background: var(--color-white); }
+.ac-included { display: grid; gap: 3rem; padding: 6rem 1rem; background: var(--color-cloud); }
+.ac-included-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.ac-included-photos > div { overflow: hidden; }
+.ac-notes { display: grid; gap: 3rem; padding: 6rem 1rem; background: var(--color-lavender); }
+.ac-note-photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.ac-note p { margin-top: 1rem; max-width: 52ch; }
+@media (min-width: 768px) { .ac-open, .ac-suite, .ac-included, .ac-notes { padding-left: 2rem; padding-right: 2rem; } }
+@media (min-width: 1024px) {
+  /* Opening: a tall arched doorway beside an expressive headline with room to breathe. */
+  .ac-open { grid-template-columns: 6fr 5fr; gap: 7rem; align-items: center; padding: 11rem 3rem 9rem; max-width: 1440px; margin: 0 auto; }
+  .ac-open .pg-h1 { font-size: clamp(3.5rem, 6.2vw, 6rem); max-width: 13ch; }
+  .ac-door { width: 100%; max-height: 78vh; aspect-ratio: 4 / 5; }
+  /* Studio: full-bleed room, text panel lifted over its lower edge. */
+  .ac-suite-0 { grid-template-columns: repeat(12, 1fr); padding: 0 0 9rem; gap: 0; }
+  .ac-suite-0 .ac-suite-photo { grid-column: 1 / -1; aspect-ratio: auto; height: min(88vh, 56vw); }
+  .ac-suite-0 .ac-suite-text { grid-column: 6 / 12; margin-top: -9rem; position: relative; background: var(--color-cloud); padding: 4rem 4rem 0; }
+  /* One-bedroom: sticky statement left, tall photograph right, on Midnight. */
+  .ac-suite-1 { grid-template-columns: 5fr 6fr; gap: 7rem; align-items: start; padding: 10rem 3rem; }
+  .ac-suite-1 .ac-suite-text { position: sticky; top: 8rem; }
+  .ac-suite-1 .ac-suite-photo { order: 2; aspect-ratio: 4 / 5; }
+  /* Lakeside: wide architectural frame, then a two-column chapter beneath. */
+  .ac-suite-2 { grid-template-columns: 1fr; padding: 10rem 3rem; max-width: 1440px; margin: 0 auto; gap: 4rem; }
+  .ac-suite-2 .ac-suite-photo { aspect-ratio: 16 / 8; }
+  .ac-suite-2 .ac-suite-text { display: grid; grid-template-columns: 5fr 6fr; column-gap: 7rem; grid-auto-flow: dense; align-items: start; }
+  .ac-suite-2 .ac-suite-text > :nth-child(-n + 3) { grid-column: 1; }
+  .ac-suite-2 .ac-suite-text > :nth-child(3) { grid-row: 3 / span 8; }
+  .ac-suite-2 .ac-suite-text > :nth-child(n + 4) { grid-column: 2; }
+  .ac-suite-2 .pg-h2 { font-size: clamp(2.5rem, 4.6vw, 4.25rem); }
+  .ac-suite .btn { justify-self: start; }
+  .ac-included { grid-template-columns: 5fr 6fr; gap: 6rem; padding: 10rem 3rem; align-items: center; }
+  .ac-notes { grid-template-columns: 5fr 3fr 3fr; grid-template-rows: auto auto; gap: 3rem 4rem; padding: 9rem 3rem; }
+  .ac-note-photo { grid-row: 1 / 3; aspect-ratio: 3 / 4; }
+}
+
+/* Amenities: architectural schedule -------------------------------------------- */
+.am-open { background: var(--color-white); padding-top: 4.5rem; }
+.am-walk { position: relative; height: 70svh; min-height: 22rem; overflow: hidden; background: var(--color-midnight); }
+@media (min-width: 1024px) { .am-walk { height: 56svh; } }
+.am-open-text { display: grid; gap: 1.5rem; padding: 3rem 1rem 4rem; max-width: 1320px; margin: 0 auto; }
+.am-chapters { padding: 2rem 1rem 6rem; max-width: 1320px; margin: 0 auto; }
+.am-schedule { margin-top: 2rem; }
+.am-schedule > div { display: grid; gap: 0.25rem; padding: 1rem 0; border-top: 1px solid var(--color-lavender); }
+.am-schedule dt { font-weight: 650; font-size: 1.125rem; }
+.am-close { display: grid; gap: 2rem; justify-items: start; padding: 6rem 1rem; background: var(--color-midnight); color: var(--color-white); }
+.am-close-line { font-size: clamp(1.75rem, 3.6vw, 3rem); line-height: 1.15; letter-spacing: -0.025em; font-weight: 600; max-width: 26ch; }
+@media (min-width: 768px) { .am-open { padding-top: 5.5rem; } .am-open-text, .am-chapters, .am-close { padding-left: 2rem; padding-right: 2rem; } }
+@media (min-width: 1024px) {
+  .am-walk { height: 82svh; }
+  .am-open-text { grid-template-columns: 7fr 5fr; align-items: end; gap: 5rem; padding: 5rem 3rem 6rem; }
+  .am-chapters .swap-right { grid-template-columns: 7fr 4fr; }
+  .am-schedule > div { grid-template-columns: 11rem 1fr; gap: 2rem; }
+  .am-chapters { padding: 2rem 3rem 8rem; }
+  .am-close { padding: 9rem 3rem; grid-template-columns: 1fr auto; align-items: end; }
+}
+
+/* Lifestyle: a photographic journal --------------------------------------------- */
+.ls-open { padding: 7.5rem 1rem 5rem; background: var(--color-cloud); }
+.ls-title { font-size: clamp(2.75rem, 8vw, 7.5rem); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600; max-width: 14ch; }
+.ls-open-grid { display: grid; gap: 2rem; margin-top: 2.5rem; }
+.ls-open-photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.ls-rhythm { display: grid; gap: 2.5rem; padding: 6rem 1rem; background: var(--color-white); }
+.ls-small { position: relative; aspect-ratio: 3 / 4; width: 62%; overflow: hidden; }
+.ls-interests { display: grid; gap: 3rem; padding: 6rem 1rem; background: var(--color-lavender); overflow: hidden; }
+.ls-list { margin-top: 2rem; display: grid; gap: 1rem; max-width: 56ch; }
+.ls-list li { position: relative; padding-left: 1.25rem; }
+.ls-tall { position: relative; aspect-ratio: 3 / 4; overflow: hidden; }
+.ls-strip { background: var(--color-midnight); padding: 5rem 0; overflow: hidden; }
+.ls-track { display: flex; align-items: center; gap: 1rem; padding: 0 1rem; width: max-content; }
+.ls-frame { position: relative; flex: none; width: 70vw; overflow: hidden; }
+.ls-frame-0 { aspect-ratio: 4 / 3; }
+.ls-frame-1 { aspect-ratio: 3 / 4; width: 46vw; }
+.ls-frame-2 { aspect-ratio: 1; width: 56vw; }
+.ls-out { background: var(--color-cloud); padding-bottom: 6rem; }
+.ls-wide { position: relative; height: 70svh; min-height: 22rem; overflow: hidden; background: var(--color-midnight); }
+.ls-out-text { display: grid; gap: 1.25rem; padding: 3rem 1rem 0; max-width: 1320px; margin: 0 auto; }
+.ls-pair { display: grid; gap: 4rem; padding: 6rem 1rem; background: var(--color-white); overflow: hidden; }
+.ls-pair-item > div { overflow: hidden; }
+.ls-close { padding: 0 1rem 6rem; background: var(--color-white); }
+@media (prefers-reduced-motion: reduce) { .ls-track { width: auto; overflow-x: auto; padding-bottom: 1rem; } }
+@media (min-width: 768px) {
+  .ls-open, .ls-rhythm, .ls-interests, .ls-out-text, .ls-pair, .ls-close { padding-left: 2rem; padding-right: 2rem; }
+  .ls-open { padding-top: 9rem; }
+}
+@media (min-width: 1024px) {
+  .ls-open { padding: 10rem 3rem 7rem; }
+  .ls-open-grid { grid-template-columns: 4fr 7fr; gap: 5rem; align-items: start; margin-top: 3rem; }
+  .ls-open-photo { margin-top: -8rem; aspect-ratio: 16 / 10; }
+  .ls-rhythm { grid-template-columns: 3fr 1fr 6fr; padding: 10rem 3rem; align-items: center; }
+  .ls-rhythm > div:last-child { grid-column: 3; }
+  .ls-small { width: 100%; }
+  .ls-interests { grid-template-columns: 6fr 5fr; gap: 6rem; padding: 10rem 3rem; align-items: center; }
+  .ls-strip { padding: 7rem 0; }
+  .ls-track { gap: 1.5rem; padding: 0 3rem; }
+  .ls-frame { width: 30vw; } .ls-frame-1 { width: 20vw; } .ls-frame-2 { width: 24vw; }
+  .ls-wide { height: 85svh; }
+  .ls-out-text { grid-template-columns: 5fr 6fr; gap: 5rem; padding: 4rem 3rem 0; }
+  .ls-pair { grid-template-columns: 1fr 1fr; gap: 6rem; padding: 10rem 3rem 6rem; }
+  .ls-pair-1 { margin-top: 10rem; }
+  .ls-close { padding: 0 3rem 8rem; }
+}
+
+/* Dining: a culinary editorial -------------------------------------------------- */
+.dn2-open { background: var(--color-white); padding-top: 7.5rem; }
+.dn2-title { padding: 0 1rem; font-size: clamp(2.5rem, 6.4vw, 6rem); line-height: 1.04; letter-spacing: -0.04em; font-weight: 600; max-width: 18ch; }
+.dn2-room { position: relative; margin-top: 3rem; aspect-ratio: 4 / 3; overflow: hidden; }
+.dn2-intro { padding: 2.5rem 1rem 0; }
+.dn2-kitchen { position: relative; display: grid; gap: 2rem; padding: 6rem 1rem; background: var(--color-white); overflow: hidden; }
+.dn2-back { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.dn2-plate { position: relative; width: 58%; aspect-ratio: 1; margin: -22% 0 0 auto; overflow: hidden; outline: 0.75rem solid var(--color-white); }
+.dn2-kitchen-text { margin-top: 1.5rem; }
+.dn2-day { padding: 6rem 1rem; background: var(--color-cloud); }
+.dn2-day-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2.5rem; }
+.dn2-day-text { grid-column: 1 / -1; }
+.dn2-mark { position: relative; aspect-ratio: 1; overflow: hidden; }
+.dn2-mark-1 { margin-top: 30%; }
+.dn2-mark-2 { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
+.dn2-notes { display: grid; gap: 3rem; padding: 6rem 1rem; background: var(--color-white); }
+.dn2-notes p { margin-top: 1rem; max-width: 52ch; }
+.dn2-together { display: grid; background: var(--color-midnight); color: var(--color-white); }
+.dn2-together-photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.dn2-together-text { padding: 3rem 1rem 5rem; }
+@media (min-width: 768px) {
+  .dn2-open { padding-top: 9rem; } .dn2-title, .dn2-intro, .dn2-kitchen, .dn2-day, .dn2-notes, .dn2-together-text { padding-left: 2rem; padding-right: 2rem; }
+  .dn2-room { aspect-ratio: 16 / 9; }
+}
+@media (min-width: 1024px) {
+  .dn2-open { padding-top: 10rem; display: grid; grid-template-columns: 1fr 1fr; }
+  .dn2-title { grid-column: 1 / -1; padding: 0 3rem; text-align: center; max-width: none; justify-self: center; width: min(100%, 20ch); box-sizing: content-box; }
+  .dn2-room { grid-column: 1 / -1; margin-top: 4rem; aspect-ratio: 21 / 9; }
+  .dn2-intro { grid-column: 2; padding: 3.5rem 3rem 0 0; }
+  .dn2-kitchen { grid-template-columns: 6fr 1fr 4fr; align-items: end; padding: 10rem 3rem; }
+  .dn2-back { grid-column: 1 / 3; grid-row: 1; aspect-ratio: 16 / 11; }
+  .dn2-plate { grid-column: 2 / 4; grid-row: 1; width: 60%; margin: 0 0 -2rem 0; align-self: end; outline-width: 1rem; z-index: 1; }
+  .dn2-kitchen-text { grid-column: 3; padding-left: 0; }
+  .dn2-kitchen-text { grid-row: 2; padding-top: 6rem; }
+  .dn2-day { padding: 10rem 3rem; }
+  .dn2-day-grid { grid-template-columns: 5fr 2fr 2fr 3fr; gap: 1.5rem; align-items: start; margin-top: 3rem; }
+  .dn2-day-text { grid-column: 1; }
+  .dn2-mark-0 { grid-column: 2; margin-top: 4rem; }
+  .dn2-mark-1 { grid-column: 3; margin-top: 10rem; }
+  .dn2-mark-2 { grid-column: 4; aspect-ratio: 3 / 4; }
+  .dn2-notes { grid-template-columns: 1fr 1fr; gap: 6rem; padding: 8rem 3rem; max-width: 1440px; margin: 0 auto; }
+  .dn2-together { grid-template-columns: 7fr 5fr; align-items: center; }
+  .dn2-together-photo { aspect-ratio: 4 / 3; height: 100%; }
+  .dn2-together-text { padding: 6rem 3rem 6rem 5rem; }
+}
