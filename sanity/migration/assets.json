@@ -1,0 +1,2345 @@
+[
+  {
+    "key": "exterior-residence-pines",
+    "file": "public/photos/exterior/exterior-residence-pines.webp",
+    "width": 3840,
+    "height": 2563,
+    "metadata": {
+      "id": "exterior-residence-pines",
+      "category": "exterior",
+      "alt": "A two-story contemporary residence of timber, dark stone and glass among tall pines, with a stone path across the lawn to the entrance.",
+      "usage": "Home arrival and surroundings; Our home opening",
+      "motion": "Plate A of the exterior sequence; doorway-mask push toward the entrance",
+      "focal": {
+        "x": 0.46,
+        "y": 0.42
+      },
+      "src": "/photos/exterior/exterior-residence-pines.webp",
+      "width": 3840,
+      "height": 2563,
+      "bytes": 3138878,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-residence-pines.jpg",
+        "width": 7360,
+        "height": 4912,
+        "bytes": 9779570
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 7598376,
+        "pageUrl": "https://www.pexels.com/photo/a-concrete-walk-path-to-a-brick-and-concrete-building-7598376/",
+        "photographer": "Max Vakhtbovych",
+        "photographerUrl": "https://www.pexels.com/@artbovich",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "b48b2322bf38bec2d4ac8cb70ebe4f45dcbaef88",
+    "bytes": 3138878,
+    "aspectRatio": 1.4982442450253608,
+    "_id": "image-b48b2322bf38bec2d4ac8cb70ebe4f45dcbaef88-3840x2563-webp"
+  },
+  {
+    "key": "exterior-residence-garden-side",
+    "file": "public/photos/exterior/exterior-residence-garden-side.webp",
+    "width": 3840,
+    "height": 2563,
+    "metadata": {
+      "id": "exterior-residence-garden-side",
+      "category": "exterior",
+      "alt": "The same residence seen between pine trunks, with stepping stones leading to glass doors.",
+      "usage": "Home surroundings; Our home architecture",
+      "motion": "Plate B of the exterior sequence; parallax with foreground trunks",
+      "focal": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "src": "/photos/exterior/exterior-residence-garden-side.webp",
+      "width": 3840,
+      "height": 2563,
+      "bytes": 3219944,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-residence-garden-side.jpg",
+        "width": 7356,
+        "height": 4909,
+        "bytes": 9606974
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 7598377,
+        "pageUrl": "https://www.pexels.com/photo/a-house-with-a-modern-design-7598377/",
+        "photographer": "Max Vakhtbovych",
+        "photographerUrl": "https://www.pexels.com/@artbovich",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "e21e044e261001d53471f18e28b1c1dfd7525a6f",
+    "bytes": 3219944,
+    "aspectRatio": 1.4982442450253608,
+    "_id": "image-e21e044e261001d53471f18e28b1c1dfd7525a6f-3840x2563-webp"
+  },
+  {
+    "key": "exterior-residence-evening-pines",
+    "file": "public/photos/exterior/exterior-residence-evening-pines.webp",
+    "width": 3840,
+    "height": 2563,
+    "metadata": {
+      "id": "exterior-residence-evening-pines",
+      "category": "exterior",
+      "alt": "Late sun on the timber and stone walls of the residence, with long windows on both floors.",
+      "usage": "Our home architecture; gallery",
+      "motion": "Plate C of the exterior sequence; light-shift crossfade",
+      "focal": {
+        "x": 0.52,
+        "y": 0.4
+      },
+      "src": "/photos/exterior/exterior-residence-evening-pines.webp",
+      "width": 3840,
+      "height": 2563,
+      "bytes": 3328160,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-residence-evening-pines.jpg",
+        "width": 7360,
+        "height": 4912,
+        "bytes": 10128104
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 7598378,
+        "pageUrl": "https://www.pexels.com/photo/a-house-with-a-modern-design-7598378/",
+        "photographer": "Max Vakhtbovych",
+        "photographerUrl": "https://www.pexels.com/@artbovich",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "a0b93badd49e0300d0b71f368a424d9a0da5f72c",
+    "bytes": 3328160,
+    "aspectRatio": 1.4982442450253608,
+    "_id": "image-a0b93badd49e0300d0b71f368a424d9a0da5f72c-3840x2563-webp"
+  },
+  {
+    "key": "exterior-entrance-cedar",
+    "file": "public/photos/exterior/exterior-entrance-cedar.webp",
+    "width": 2133,
+    "height": 3200,
+    "metadata": {
+      "id": "exterior-entrance-cedar",
+      "category": "exterior",
+      "alt": "A covered entrance clad in warm cedar boards beside a stone column, with plants in the foreground.",
+      "usage": "Home entrance; arched frame candidate",
+      "motion": "Threshold doorway expansion from the logo arch into this frame",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "src": "/photos/exterior/exterior-entrance-cedar.webp",
+      "width": 2133,
+      "height": 3200,
+      "bytes": 632874,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-entrance-cedar.jpg",
+        "width": 4000,
+        "height": 6000,
+        "bytes": 2666127
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 31372129,
+        "pageUrl": "https://www.pexels.com/photo/modern-wooden-house-entrance-with-greenery-31372129/",
+        "photographer": "Iulian Sandu",
+        "photographerUrl": "https://www.pexels.com/@iulian-sandu-294198313",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "accdd09535070977164cff9133afa5af5d7cc59a",
+    "bytes": 632874,
+    "aspectRatio": 0.6665625,
+    "_id": "image-accdd09535070977164cff9133afa5af5d7cc59a-2133x3200-webp"
+  },
+  {
+    "key": "exterior-cedar-slats-sky",
+    "file": "public/photos/exterior/exterior-cedar-slats-sky.webp",
+    "width": 2133,
+    "height": 3200,
+    "metadata": {
+      "id": "exterior-cedar-slats-sky",
+      "category": "exterior",
+      "alt": "Horizontal cedar slats stepping out against a clear blue sky.",
+      "usage": "Our home design detail; texture plate",
+      "motion": "Slow vertical drift behind type",
+      "focal": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "src": "/photos/exterior/exterior-cedar-slats-sky.webp",
+      "width": 2133,
+      "height": 3200,
+      "bytes": 313362,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-cedar-slats-sky.jpg",
+        "width": 4118,
+        "height": 6177,
+        "bytes": 2177687
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 26063238,
+        "pageUrl": "https://www.pexels.com/photo/corner-of-wooden-building-26063238/",
+        "photographer": "Alper Tunga Danyıldız",
+        "photographerUrl": "https://www.pexels.com/@alper-tunga-danyildiz-25433489",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "c1878a092b0305762fdd6f29ecbaeac52407afd6",
+    "bytes": 313362,
+    "aspectRatio": 0.6665625,
+    "_id": "image-c1878a092b0305762fdd6f29ecbaeac52407afd6-2133x3200-webp"
+  },
+  {
+    "key": "exterior-slatted-garden-walk",
+    "file": "public/photos/exterior/exterior-slatted-garden-walk.webp",
+    "width": 2272,
+    "height": 3200,
+    "metadata": {
+      "id": "exterior-slatted-garden-walk",
+      "category": "exterior",
+      "alt": "A gravel walk between slatted timber screens leading toward a glass door.",
+      "usage": "Our home rooms; Amenities opening",
+      "motion": "Perspective push down the walk",
+      "focal": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "src": "/photos/exterior/exterior-slatted-garden-walk.webp",
+      "width": 2272,
+      "height": 3200,
+      "bytes": 800868,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-slatted-garden-walk.jpg",
+        "width": 4583,
+        "height": 6454,
+        "bytes": 3474566
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 17612096,
+        "pageUrl": "https://www.pexels.com/photo/wooden-walls-around-cobblestone-alley-17612096/",
+        "photographer": "Gül Işık",
+        "photographerUrl": "https://www.pexels.com/@ekrulila",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "a37095b2a3f1bffc98463330e5df77809aca6437",
+    "bytes": 800868,
+    "aspectRatio": 0.71,
+    "_id": "image-a37095b2a3f1bffc98463330e5df77809aca6437-2272x3200-webp"
+  },
+  {
+    "key": "exterior-residence-stone-cedar",
+    "file": "public/photos/exterior/exterior-residence-stone-cedar.webp",
+    "width": 3840,
+    "height": 2563,
+    "metadata": {
+      "id": "exterior-residence-stone-cedar",
+      "category": "exterior",
+      "alt": "A two-story house of cedar boards and dark stone panels among pines, with long windows facing a sunlit lawn.",
+      "usage": "Our home architecture; gallery exterior",
+      "motion": "Plate D of the exterior sequence; slow lateral drift",
+      "focal": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "src": "/photos/exterior/exterior-residence-stone-cedar.webp",
+      "width": 3840,
+      "height": 2563,
+      "bytes": 2674174,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-residence-stone-cedar.jpg",
+        "width": 6307,
+        "height": 4209,
+        "bytes": 6460142
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 7598374,
+        "pageUrl": "https://www.pexels.com/photo/a-house-with-a-modern-design-7598374/",
+        "photographer": "Max Vakhtbovych",
+        "photographerUrl": "https://www.pexels.com/@artbovich",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "404afd2ec9b90404197c2c3458456bb67d367d54",
+    "bytes": 2674174,
+    "aspectRatio": 1.4982442450253608,
+    "_id": "image-404afd2ec9b90404197c2c3458456bb67d367d54-3840x2563-webp"
+  },
+  {
+    "key": "exterior-cedar-shingle-light",
+    "file": "public/photos/exterior/exterior-cedar-shingle-light.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "exterior-cedar-shingle-light",
+      "category": "exterior",
+      "alt": "Low evening sun across weathered cedar shingles and a row of small lit windows.",
+      "usage": "Our home design detail; Home invitation texture",
+      "motion": "Raking-light texture plate behind type",
+      "focal": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "src": "/photos/exterior/exterior-cedar-shingle-light.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 769734,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-cedar-shingle-light.jpg",
+        "width": 6720,
+        "height": 4480,
+        "bytes": 3802177
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36486532,
+        "pageUrl": "https://www.pexels.com/photo/rustic-cedar-shingle-house-in-evening-light-36486532/",
+        "photographer": "Brent Singleton",
+        "photographerUrl": "https://www.pexels.com/@brentsingletonphoto",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "1f91039fa7b12282f02cb26933a5b95f5eb34a64",
+    "bytes": 769734,
+    "aspectRatio": 1.5,
+    "_id": "image-1f91039fa7b12282f02cb26933a5b95f5eb34a64-3840x2560-webp"
+  },
+  {
+    "key": "exterior-glass-gallery-forest",
+    "file": "public/photos/exterior/exterior-glass-gallery-forest.webp",
+    "width": 3840,
+    "height": 2562,
+    "metadata": {
+      "id": "exterior-glass-gallery-forest",
+      "category": "exterior",
+      "alt": "A long timber-framed glass gallery raised on stone footings among autumn trees.",
+      "usage": "Our home rooms (Garden Room exterior); gallery exterior",
+      "motion": "Parallax between foreground trunks and the glass",
+      "focal": {
+        "x": 0.4,
+        "y": 0.5
+      },
+      "src": "/photos/exterior/exterior-glass-gallery-forest.webp",
+      "width": 3840,
+      "height": 2562,
+      "bytes": 1161298,
+      "original": {
+        "path": "assets/photos/originals/exterior/exterior-glass-gallery-forest.jpg",
+        "width": 6016,
+        "height": 4014,
+        "bytes": 3186893
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 34794609,
+        "pageUrl": "https://www.pexels.com/photo/modern-cabin-in-autumn-forest-landscape-34794609/",
+        "photographer": "Abdullah Öğük",
+        "photographerUrl": "https://www.pexels.com/@abdullahoguk",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "eb4d58dfc14263f667cf0f3b517049d826ae34cf",
+    "bytes": 1161298,
+    "aspectRatio": 1.4988290398126465,
+    "_id": "image-eb4d58dfc14263f667cf0f3b517049d826ae34cf-3840x2562-webp"
+  },
+  {
+    "key": "surroundings-lake-mist-shore",
+    "file": "public/photos/surroundings/surroundings-lake-mist-shore.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "surroundings-lake-mist-shore",
+      "category": "surroundings",
+      "alt": "A still lake under morning mist, with dark evergreens reflected along the far shore.",
+      "usage": "Home opening hero; first frame of the journey",
+      "motion": "WebGL mist displacement on load; slow push-in",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "src": "/photos/surroundings/surroundings-lake-mist-shore.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 302190,
+      "original": {
+        "path": "assets/photos/originals/surroundings/surroundings-lake-mist-shore.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 1379153
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 12527037,
+        "pageUrl": "https://www.pexels.com/photo/lake-surrounded-by-trees-covered-with-fog-12527037/",
+        "photographer": "eberhard grossgasteiger",
+        "photographerUrl": "https://www.pexels.com/@eberhardgross",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "85d70bb16ef9e764ed0eb7c3c64ba538a4e5d3ac",
+    "bytes": 302190,
+    "aspectRatio": 1.5,
+    "_id": "image-85d70bb16ef9e764ed0eb7c3c64ba538a4e5d3ac-3840x2560-webp"
+  },
+  {
+    "key": "surroundings-lake-dawn-pines",
+    "file": "public/photos/surroundings/surroundings-lake-dawn-pines.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "surroundings-lake-dawn-pines",
+      "category": "surroundings",
+      "alt": "Tall pines on a point of land at dawn, with mist lifting off calm water.",
+      "usage": "Home surroundings; Lifestyle rhythm",
+      "motion": "Horizontal pan; transition plate between exterior and welcome",
+      "focal": {
+        "x": 0.62,
+        "y": 0.5
+      },
+      "src": "/photos/surroundings/surroundings-lake-dawn-pines.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 652252,
+      "original": {
+        "path": "assets/photos/originals/surroundings/surroundings-lake-dawn-pines.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 1954657
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 18393066,
+        "pageUrl": "https://www.pexels.com/photo/forest-by-lake-18393066/",
+        "photographer": "pa reh",
+        "photographerUrl": "https://www.pexels.com/@pa-reh-730264360",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "da277e6a2dd2b083a457ad3713ceffd2734b6447",
+    "bytes": 652252,
+    "aspectRatio": 1.5,
+    "_id": "image-da277e6a2dd2b083a457ad3713ceffd2734b6447-3840x2560-webp"
+  },
+  {
+    "key": "surroundings-dock-first-light",
+    "file": "public/photos/surroundings/surroundings-dock-first-light.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "surroundings-dock-first-light",
+      "category": "surroundings",
+      "alt": "A wooden dock and swim platform on glassy water at first light, with pines on the far shore.",
+      "usage": "Home invitation; Contact opening",
+      "motion": "Final fade from photograph to the inquiry panel",
+      "focal": {
+        "x": 0.55,
+        "y": 0.62
+      },
+      "src": "/photos/surroundings/surroundings-dock-first-light.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 1633140,
+      "original": {
+        "path": "assets/photos/originals/surroundings/surroundings-dock-first-light.jpg",
+        "width": 6192,
+        "height": 4128,
+        "bytes": 4857810
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 23990737,
+        "pageUrl": "https://www.pexels.com/photo/calm-lake-with-wooden-docks-23990737/",
+        "photographer": "Lorenzo Manera",
+        "photographerUrl": "https://www.pexels.com/@lorenzo-manera-686693293",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "681843a8452df663c7af1dafd8b54db13e043085",
+    "bytes": 1633140,
+    "aspectRatio": 1.5,
+    "_id": "image-681843a8452df663c7af1dafd8b54db13e043085-3840x2560-webp"
+  },
+  {
+    "key": "interiors-commons-fireplace",
+    "file": "public/photos/interiors/interiors-commons-fireplace.webp",
+    "width": 2560,
+    "height": 1708,
+    "metadata": {
+      "id": "interiors-commons-fireplace",
+      "category": "interiors",
+      "alt": "A bright living room with a stacked-stone fireplace and tall windows looking into the trees.",
+      "usage": "Home entrance; Our home commons",
+      "motion": "Exterior-to-interior reveal target behind the doorway mask",
+      "focal": {
+        "x": 0.62,
+        "y": 0.5
+      },
+      "src": "/photos/interiors/interiors-commons-fireplace.webp",
+      "width": 2560,
+      "height": 1708,
+      "bytes": 504938,
+      "original": {
+        "path": "assets/photos/originals/interiors/interiors-commons-fireplace.jpg",
+        "width": 8193,
+        "height": 5464,
+        "bytes": 5619675
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 20773072,
+        "pageUrl": "https://www.pexels.com/photo/empty-interior-of-a-modern-living-room-with-a-fireplace-20773072/",
+        "photographer": "C.L. Russell",
+        "photographerUrl": "https://www.pexels.com/@c-l-russell-1110690659",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "35cf70a4b4b440831da902ed2aa6447a2ea51f05",
+    "bytes": 504938,
+    "aspectRatio": 1.4988290398126465,
+    "_id": "image-35cf70a4b4b440831da902ed2aa6447a2ea51f05-2560x1708-webp"
+  },
+  {
+    "key": "interiors-commons-tall-windows",
+    "file": "public/photos/interiors/interiors-commons-tall-windows.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "interiors-commons-tall-windows",
+      "category": "interiors",
+      "alt": "A double-height sitting room with a fireplace, comfortable chairs and walls of windows.",
+      "usage": "Our home commons; gallery interiors",
+      "motion": "Vertical rise revealing the double-height space",
+      "focal": {
+        "x": 0.55,
+        "y": 0.55
+      },
+      "src": "/photos/interiors/interiors-commons-tall-windows.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 414146,
+      "original": {
+        "path": "assets/photos/originals/interiors/interiors-commons-tall-windows.jpg",
+        "width": 8457,
+        "height": 5638,
+        "bytes": 3471553
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 11408618,
+        "pageUrl": "https://www.pexels.com/photo/brown-sofa-in-a-living-room-11408618/",
+        "photographer": "Jack Davis",
+        "photographerUrl": "https://www.pexels.com/@jack-davis-86003658",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "719ff0d105c340ecd9d3486599623391c1fdbb52",
+    "bytes": 414146,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-719ff0d105c340ecd9d3486599623391c1fdbb52-2560x1707-webp"
+  },
+  {
+    "key": "interiors-garden-room",
+    "file": "public/photos/interiors/interiors-garden-room.webp",
+    "width": 2560,
+    "height": 1709,
+    "metadata": {
+      "id": "interiors-garden-room",
+      "category": "interiors",
+      "alt": "A glass-walled garden room with woven chairs, cushions and potted plants facing tall trees.",
+      "usage": "Our home rooms (Garden Room); Lifestyle rhythm",
+      "motion": "Window-grid mask reveal",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "src": "/photos/interiors/interiors-garden-room.webp",
+      "width": 2560,
+      "height": 1709,
+      "bytes": 876364,
+      "original": {
+        "path": "assets/photos/originals/interiors/interiors-garden-room.jpg",
+        "width": 7342,
+        "height": 4900,
+        "bytes": 5472029
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 8143705,
+        "pageUrl": "https://www.pexels.com/photo/wicker-dining-set-near-glass-doors-and-windows-8143705/",
+        "photographer": "Max Vakhtbovych",
+        "photographerUrl": "https://www.pexels.com/@artbovich",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "568793da8929d09af8c9b84adf13296920c7e2d9",
+    "bytes": 876364,
+    "aspectRatio": 1.4979520187244002,
+    "_id": "image-568793da8929d09af8c9b84adf13296920c7e2d9-2560x1709-webp"
+  },
+  {
+    "key": "interiors-library-fireplace",
+    "file": "public/photos/interiors/interiors-library-fireplace.webp",
+    "width": 2560,
+    "height": 1919,
+    "metadata": {
+      "id": "interiors-library-fireplace",
+      "category": "interiors",
+      "alt": "A library with floor-to-ceiling bookshelves, wing chairs beside a tiled fireplace and tall windows onto evergreens.",
+      "usage": "Our home rooms (Library); Lifestyle quiet",
+      "motion": "Warm lamplight crossfade at dusk",
+      "focal": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "src": "/photos/interiors/interiors-library-fireplace.webp",
+      "width": 2560,
+      "height": 1919,
+      "bytes": 367300,
+      "original": {
+        "path": "assets/photos/originals/interiors/interiors-library-fireplace.jpg",
+        "width": 8280,
+        "height": 6208,
+        "bytes": 5112761
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 4353719,
+        "pageUrl": "https://www.pexels.com/photo/cozy-interior-with-bookshelves-and-fireplace-4353719/",
+        "photographer": "ArtHouse Studio",
+        "photographerUrl": "https://www.pexels.com/@arthousestudio",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "4cbcd7f0eeb38ec69327ed81eb1cd499a2930504",
+    "bytes": 367300,
+    "aspectRatio": 1.334028139656071,
+    "_id": "image-4cbcd7f0eeb38ec69327ed81eb1cd499a2930504-2560x1919-webp"
+  },
+  {
+    "key": "interiors-lounge-clerestory",
+    "file": "public/photos/interiors/interiors-lounge-clerestory.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "interiors-lounge-clerestory",
+      "category": "interiors",
+      "alt": "A bright sitting room with a pale sofa, woven chairs and a row of high windows onto pine trees.",
+      "usage": "Amenities house; gallery interiors",
+      "motion": "Static; window-row mask reveal",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "src": "/photos/interiors/interiors-lounge-clerestory.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 363684,
+      "original": {
+        "path": "assets/photos/originals/interiors/interiors-lounge-clerestory.jpg",
+        "width": 8000,
+        "height": 5334,
+        "bytes": 3350964
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36777522,
+        "pageUrl": "https://www.pexels.com/photo/modern-cozy-living-room-with-minimalist-decor-36777522/",
+        "photographer": "Curtis Adams",
+        "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "89eaac11a8ed9fea0eeae337a16ae04b03ce3fec",
+    "bytes": 363684,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-89eaac11a8ed9fea0eeae337a16ae04b03ce3fec-2560x1707-webp"
+  },
+  {
+    "key": "interiors-front-door-open",
+    "file": "public/photos/interiors/interiors-front-door-open.webp",
+    "width": 2560,
+    "height": 1708,
+    "metadata": {
+      "id": "interiors-front-door-open",
+      "category": "interiors",
+      "alt": "Double wooden front doors stand open from a hallway onto a covered porch and tall pines.",
+      "usage": "Contact visiting; Through the Door motif",
+      "motion": "Doorway frame for the threshold transition",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "src": "/photos/interiors/interiors-front-door-open.webp",
+      "width": 2560,
+      "height": 1708,
+      "bytes": 360894,
+      "original": {
+        "path": "assets/photos/originals/interiors/interiors-front-door-open.jpg",
+        "width": 8000,
+        "height": 5336,
+        "bytes": 5586402
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36777887,
+        "pageUrl": "https://www.pexels.com/photo/inviting-front-entrance-with-open-door-and-scenic-view-36777887/",
+        "photographer": "Curtis Adams",
+        "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "14a0df45841fc550ddd7b4e84d5833a0591bc812",
+    "bytes": 360894,
+    "aspectRatio": 1.4988290398126465,
+    "_id": "image-14a0df45841fc550ddd7b4e84d5833a0591bc812-2560x1708-webp"
+  },
+  {
+    "key": "accommodations-studio-suite",
+    "file": "public/photos/accommodations/accommodations-studio-suite.webp",
+    "width": 2560,
+    "height": 1709,
+    "metadata": {
+      "id": "accommodations-studio-suite",
+      "category": "accommodations",
+      "alt": "A light-filled suite with pale wood floors, a reading chair, a bed and a wall of windows.",
+      "usage": "Accommodations suites; Home spaces",
+      "motion": "Suite sequence plate; crossfade with the bathroom detail",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "src": "/photos/accommodations/accommodations-studio-suite.webp",
+      "width": 2560,
+      "height": 1709,
+      "bytes": 724384,
+      "original": {
+        "path": "assets/photos/originals/accommodations/accommodations-studio-suite.jpg",
+        "width": 7360,
+        "height": 4912,
+        "bytes": 9097214
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 2082093,
+        "pageUrl": "https://www.pexels.com/photo/photo-of-bedroom-2082093/",
+        "photographer": "Dmitry Zvolskiy",
+        "photographerUrl": "https://www.pexels.com/@zvolskiy",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "147b4115b258c0dde6e3e01506f02d9a858070ec",
+    "bytes": 724384,
+    "aspectRatio": 1.4979520187244002,
+    "_id": "image-147b4115b258c0dde6e3e01506f02d9a858070ec-2560x1709-webp"
+  },
+  {
+    "key": "accommodations-bathroom-shower",
+    "file": "public/photos/accommodations/accommodations-bathroom-shower.webp",
+    "width": 2200,
+    "height": 3200,
+    "metadata": {
+      "id": "accommodations-bathroom-shower",
+      "category": "accommodations",
+      "alt": "A walk-in shower lined with wood-look tile behind a clear glass panel.",
+      "usage": "Accommodations included features",
+      "motion": "Static detail",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "src": "/photos/accommodations/accommodations-bathroom-shower.webp",
+      "width": 2200,
+      "height": 3200,
+      "bytes": 464544,
+      "original": {
+        "path": "assets/photos/originals/accommodations/accommodations-bathroom-shower.jpg",
+        "width": 4479,
+        "height": 6514,
+        "bytes": 3653809
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 8142053,
+        "pageUrl": "https://www.pexels.com/photo/clear-glass-shower-stall-with-stainless-steel-shower-head-8142053/",
+        "photographer": "Max Vakhtbovych",
+        "photographerUrl": "https://www.pexels.com/@artbovich",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "857c94fe73bc802918da4994f5c4ac95b1e372bd",
+    "bytes": 464544,
+    "aspectRatio": 0.6875,
+    "_id": "image-857c94fe73bc802918da4994f5c4ac95b1e372bd-2200x3200-webp"
+  },
+  {
+    "key": "accommodations-suite-pines",
+    "file": "public/photos/accommodations/accommodations-suite-pines.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "accommodations-suite-pines",
+      "category": "accommodations",
+      "alt": "A spacious suite with a bed, a reading chair and a wide window onto pine woods, on pale oak floors.",
+      "usage": "Accommodations one-bedroom suite; Home spaces",
+      "motion": "Suite sequence plate; slow push toward the window",
+      "focal": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "src": "/photos/accommodations/accommodations-suite-pines.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 334844,
+      "original": {
+        "path": "assets/photos/originals/accommodations/accommodations-suite-pines.jpg",
+        "width": 8000,
+        "height": 5334,
+        "bytes": 3361564
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36777598,
+        "pageUrl": "https://www.pexels.com/photo/modern-sunlit-bedroom-interior-design-36777598/",
+        "photographer": "Curtis Adams",
+        "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "75d1b0549a4621c4bf1f22feeb692d0d935cb7db",
+    "bytes": 334844,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-75d1b0549a4621c4bf1f22feeb692d0d935cb7db-2560x1707-webp"
+  },
+  {
+    "key": "accommodations-suite-doorway",
+    "file": "public/photos/accommodations/accommodations-suite-doorway.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "accommodations-suite-doorway",
+      "category": "accommodations",
+      "alt": "A suite seen through its open door, with two armchairs, a side table and a shuttered window.",
+      "usage": "Accommodations opening",
+      "motion": "Through the Door frame; door edge wipes aside",
+      "focal": {
+        "x": 0.35,
+        "y": 0.55
+      },
+      "src": "/photos/accommodations/accommodations-suite-doorway.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 215896,
+      "original": {
+        "path": "assets/photos/originals/accommodations/accommodations-suite-doorway.jpg",
+        "width": 8000,
+        "height": 5334,
+        "bytes": 2610693
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36777563,
+        "pageUrl": "https://www.pexels.com/photo/modern-minimalist-bedroom-interior-design-36777563/",
+        "photographer": "Curtis Adams",
+        "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "fda48b7e26a2231208539a7c87eae5326aa96bff",
+    "bytes": 215896,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-fda48b7e26a2231208539a7c87eae5326aa96bff-2560x1707-webp"
+  },
+  {
+    "key": "accommodations-suite-forest-mirror",
+    "file": "public/photos/accommodations/accommodations-suite-forest-mirror.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "accommodations-suite-forest-mirror",
+      "category": "accommodations",
+      "alt": "A walnut dresser and a tall mirror reflecting the bed, beside a window onto the woods.",
+      "usage": "Accommodations personal; gallery suites",
+      "motion": "Static detail",
+      "focal": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "src": "/photos/accommodations/accommodations-suite-forest-mirror.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 355150,
+      "original": {
+        "path": "assets/photos/originals/accommodations/accommodations-suite-forest-mirror.jpg",
+        "width": 6675,
+        "height": 4450,
+        "bytes": 3133888
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 13053974,
+        "pageUrl": "https://www.pexels.com/photo/mirrors-in-room-13053974/",
+        "photographer": "Andrea Davis",
+        "photographerUrl": "https://www.pexels.com/@andreaedavis",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "c9333d984fa783a0694193e193a5180641b71022",
+    "bytes": 355150,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-c9333d984fa783a0694193e193a5180641b71022-2560x1707-webp"
+  },
+  {
+    "key": "accommodations-suite-bedroom-bath",
+    "file": "public/photos/accommodations/accommodations-suite-bedroom-bath.webp",
+    "width": 2560,
+    "height": 1708,
+    "metadata": {
+      "id": "accommodations-suite-bedroom-bath",
+      "category": "accommodations",
+      "alt": "A suite bedroom with an upholstered bed, bedside lamps and a door open to a private bathroom.",
+      "usage": "Accommodations included features; gallery suites",
+      "motion": "Static",
+      "focal": {
+        "x": 0.45,
+        "y": 0.55
+      },
+      "src": "/photos/accommodations/accommodations-suite-bedroom-bath.webp",
+      "width": 2560,
+      "height": 1708,
+      "bytes": 283750,
+      "original": {
+        "path": "assets/photos/originals/accommodations/accommodations-suite-bedroom-bath.jpg",
+        "width": 8000,
+        "height": 5336,
+        "bytes": 4387130
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36777978,
+        "pageUrl": "https://www.pexels.com/photo/modern-bedroom-interior-with-orange-accents-36777978/",
+        "photographer": "Curtis Adams",
+        "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "52db954e1bd623865f24af044d6424c588879149",
+    "bytes": 283750,
+    "aspectRatio": 1.4988290398126465,
+    "_id": "image-52db954e1bd623865f24af044d6424c588879149-2560x1708-webp"
+  },
+  {
+    "key": "accommodations-suite-garden-doors",
+    "file": "public/photos/accommodations/accommodations-suite-garden-doors.webp",
+    "width": 2560,
+    "height": 1705,
+    "metadata": {
+      "id": "accommodations-suite-garden-doors",
+      "category": "accommodations",
+      "alt": "A large suite with a low bed, two chairs by the window and sliding glass doors to a planted balcony.",
+      "usage": "Accommodations lakeside suite",
+      "motion": "Light-shift crossfade toward the glass doors",
+      "focal": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "src": "/photos/accommodations/accommodations-suite-garden-doors.webp",
+      "width": 2560,
+      "height": 1705,
+      "bytes": 219538,
+      "original": {
+        "path": "assets/photos/originals/accommodations/accommodations-suite-garden-doors.jpg",
+        "width": 8100,
+        "height": 5395,
+        "bytes": 2437653
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36749687,
+        "pageUrl": "https://www.pexels.com/photo/luxurious-modern-hotel-room-with-a-forest-view-36749687/",
+        "photographer": "aksinfo7 universe",
+        "photographerUrl": "https://www.pexels.com/@aksinfo7",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "de8eb73ab3747ec1f0d2be786ec60a6d0f9f0c46",
+    "bytes": 219538,
+    "aspectRatio": 1.501466275659824,
+    "_id": "image-de8eb73ab3747ec1f0d2be786ec60a6d0f9f0c46-2560x1705-webp"
+  },
+  {
+    "key": "dining-room-forest-windows",
+    "file": "public/photos/dining/dining-room-forest-windows.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "dining-room-forest-windows",
+      "category": "dining",
+      "alt": "A dining room with a long wooden table beneath a pendant light and windows onto bare winter trees.",
+      "usage": "Dining opening; Home dining",
+      "motion": "Table-height dolly toward the windows",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "src": "/photos/dining/dining-room-forest-windows.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 349310,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-room-forest-windows.jpg",
+        "width": 8000,
+        "height": 5334,
+        "bytes": 3344542
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 36777576,
+        "pageUrl": "https://www.pexels.com/photo/modern-dining-room-with-large-windows-and-rug-36777576/",
+        "photographer": "Curtis Adams",
+        "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "d8ee69cf7f919ea24bde9019de12736baa896c1b",
+    "bytes": 349310,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-d8ee69cf7f919ea24bde9019de12736baa896c1b-2560x1707-webp"
+  },
+  {
+    "key": "dining-room-garden-light",
+    "file": "public/photos/dining/dining-room-garden-light.webp",
+    "width": 2560,
+    "height": 1745,
+    "metadata": {
+      "id": "dining-room-garden-light",
+      "category": "dining",
+      "alt": "A wooden table and chairs by floor-to-ceiling glass doors opening onto a green garden.",
+      "usage": "Dining day; Our home dining room",
+      "motion": "Light-shift crossfade from morning to midday",
+      "focal": {
+        "x": 0.45,
+        "y": 0.6
+      },
+      "src": "/photos/dining/dining-room-garden-light.webp",
+      "width": 2560,
+      "height": 1745,
+      "bytes": 374430,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-room-garden-light.jpg",
+        "width": 7190,
+        "height": 4900,
+        "bytes": 3674305
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 7061666,
+        "pageUrl": "https://www.pexels.com/photo/dining-zone-with-stylish-lamps-above-table-7061666/",
+        "photographer": "Max Vakhtbovych",
+        "photographerUrl": "https://www.pexels.com/@artbovich",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "af93fc49cc4e2686f206f47cfd5373fd5eab516b",
+    "bytes": 374430,
+    "aspectRatio": 1.4670487106017192,
+    "_id": "image-af93fc49cc4e2686f206f47cfd5373fd5eab516b-2560x1745-webp"
+  },
+  {
+    "key": "dining-salmon-plate",
+    "file": "public/photos/dining/dining-salmon-plate.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "dining-salmon-plate",
+      "category": "dining",
+      "alt": "A crusted salmon fillet on whipped potatoes with lemon and herbs in a handmade ceramic bowl.",
+      "usage": "Dining kitchen",
+      "motion": "Static; slow scale on hover only",
+      "focal": {
+        "x": 0.48,
+        "y": 0.55
+      },
+      "src": "/photos/dining/dining-salmon-plate.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 177176,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-salmon-plate.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2170789
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 17803243,
+        "pageUrl": "https://www.pexels.com/photo/meal-on-plate-17803243/",
+        "photographer": "pipop kunachon",
+        "photographerUrl": "https://www.pexels.com/@daddysky",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "58e12611f1604381364833ff8a724aad0cbd5bb7",
+    "bytes": 177176,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-58e12611f1604381364833ff8a724aad0cbd5bb7-2560x1707-webp"
+  },
+  {
+    "key": "dining-seasonal-plate",
+    "file": "public/photos/dining/dining-seasonal-plate.webp",
+    "width": 2560,
+    "height": 1920,
+    "metadata": {
+      "id": "dining-seasonal-plate",
+      "category": "dining",
+      "alt": "Roasted carrots and sliced duck with a bright herb oil on a white plate, seen from above.",
+      "usage": "Dining seasons",
+      "motion": "Overhead plate sequence frame",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "src": "/photos/dining/dining-seasonal-plate.webp",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 245022,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-seasonal-plate.jpg",
+        "width": 8428,
+        "height": 6321,
+        "bytes": 4230690
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 17517943,
+        "pageUrl": "https://www.pexels.com/photo/fried-meat-with-sauce-and-carrots-17517943/",
+        "photographer": "Nadin Sh",
+        "photographerUrl": "https://www.pexels.com/@nadin-sh-78971847",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "d242c64bb381533048d0021574232559dd886488",
+    "bytes": 245022,
+    "aspectRatio": 1.3333333333333333,
+    "_id": "image-d242c64bb381533048d0021574232559dd886488-2560x1920-webp"
+  },
+  {
+    "key": "dining-summer-salad",
+    "file": "public/photos/dining/dining-summer-salad.webp",
+    "width": 2560,
+    "height": 1920,
+    "metadata": {
+      "id": "dining-summer-salad",
+      "category": "dining",
+      "alt": "A summer salad of tomatoes, shaved cucumber and herbs on a white plate, seen from above.",
+      "usage": "Dining seasons",
+      "motion": "Overhead plate sequence frame",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "src": "/photos/dining/dining-summer-salad.webp",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 375254,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-summer-salad.jpg",
+        "width": 8428,
+        "height": 6321,
+        "bytes": 4994709
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 17761083,
+        "pageUrl": "https://www.pexels.com/photo/vegetables-on-plate-17761083/",
+        "photographer": "Nadin Sh",
+        "photographerUrl": "https://www.pexels.com/@nadin-sh-78971847",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "a74420772881b07d8398f5a4b7296132c50cbaf2",
+    "bytes": 375254,
+    "aspectRatio": 1.3333333333333333,
+    "_id": "image-a74420772881b07d8398f5a4b7296132c50cbaf2-2560x1920-webp"
+  },
+  {
+    "key": "dining-morning-coffee",
+    "file": "public/photos/dining/dining-morning-coffee.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "dining-morning-coffee",
+      "category": "dining",
+      "alt": "A cup of coffee on a wooden table in low morning sunlight.",
+      "usage": "Dining day (breakfast); Lifestyle rhythm",
+      "motion": "Light-leak crossfade",
+      "focal": {
+        "x": 0.55,
+        "y": 0.6
+      },
+      "src": "/photos/dining/dining-morning-coffee.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 62034,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-morning-coffee.jpg",
+        "width": 8640,
+        "height": 5760,
+        "bytes": 918690
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 35452847,
+        "pageUrl": "https://www.pexels.com/photo/serene-morning-coffee-cup-in-sunlit-cafe-35452847/",
+        "photographer": "Andras Stefuca",
+        "photographerUrl": "https://www.pexels.com/@shtefutsa",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "4edd2ee8d731f1eec70b31d2f9f0e2e95eea0521",
+    "bytes": 62034,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-4edd2ee8d731f1eec70b31d2f9f0e2e95eea0521-2560x1707-webp"
+  },
+  {
+    "key": "dining-breakfast-table",
+    "file": "public/photos/dining/dining-breakfast-table.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "dining-breakfast-table",
+      "category": "dining",
+      "alt": "Croissants, butter and mugs of coffee on a sunlit breakfast table.",
+      "usage": "Dining choice",
+      "motion": "Static",
+      "focal": {
+        "x": 0.4,
+        "y": 0.6
+      },
+      "src": "/photos/dining/dining-breakfast-table.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 212616,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-breakfast-table.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 1426810
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 14686500,
+        "pageUrl": "https://www.pexels.com/photo/tasty-croissants-on-the-white-ceramic-plate-14686500/",
+        "photographer": "Kubra YETER",
+        "photographerUrl": "https://www.pexels.com/@kubra-yeter-53087376",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "62ff6491e9ed977e95aed7b4ff4efc0ce8d8ac7c",
+    "bytes": 212616,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-62ff6491e9ed977e95aed7b4ff4efc0ce8d8ac7c-2560x1707-webp"
+  },
+  {
+    "key": "dining-couple-toast",
+    "file": "public/photos/dining/dining-couple-toast.webp",
+    "width": 2560,
+    "height": 1709,
+    "metadata": {
+      "id": "dining-couple-toast",
+      "category": "dining",
+      "alt": "An older couple raise glasses of red wine across a table by a window.",
+      "usage": "Dining together; Home dining",
+      "motion": "Static",
+      "focal": {
+        "x": 0.55,
+        "y": 0.4
+      },
+      "people": true,
+      "src": "/photos/dining/dining-couple-toast.webp",
+      "width": 2560,
+      "height": 1709,
+      "bytes": 217490,
+      "original": {
+        "path": "assets/photos/originals/dining/dining-couple-toast.jpg",
+        "width": 6016,
+        "height": 4016,
+        "bytes": 1588562
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 6950736,
+        "pageUrl": "https://www.pexels.com/photo/elderly-man-and-woman-holding-glass-of-wine-6950736/",
+        "photographer": "Kampus Production",
+        "photographerUrl": "https://www.pexels.com/@kampus",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "adf8f52909485a59ab57ea5e7c1b112b7a3de1fd",
+    "bytes": 217490,
+    "aspectRatio": 1.4979520187244002,
+    "_id": "image-adf8f52909485a59ab57ea5e7c1b112b7a3de1fd-2560x1709-webp"
+  },
+  {
+    "key": "lifestyle-reading-window",
+    "file": "public/photos/lifestyle/lifestyle-reading-window.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-reading-window",
+      "category": "lifestyle",
+      "alt": "A woman reads in a wooden armchair beside a sunny window lined with plants.",
+      "usage": "Lifestyle quiet; Accommodations personal",
+      "motion": "Static",
+      "focal": {
+        "x": 0.72,
+        "y": 0.5
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-reading-window.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 250754,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-reading-window.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2680044
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 6874089,
+        "pageUrl": "https://www.pexels.com/photo/elderly-woman-reading-textbook-against-tea-and-cookies-in-house-6874089/",
+        "photographer": "Teona Swift",
+        "photographerUrl": "https://www.pexels.com/@teona-swift",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "44e7dcea7151898c1080c3a8f0b383bf42e2c8c2",
+    "bytes": 250754,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-44e7dcea7151898c1080c3a8f0b383bf42e2c8c2-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-coffee-window",
+    "file": "public/photos/lifestyle/lifestyle-coffee-window.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-coffee-window",
+      "category": "lifestyle",
+      "alt": "A woman sips coffee in an armchair by a window with plants on the sill.",
+      "usage": "Lifestyle rhythm",
+      "motion": "Paired plate with lifestyle-reading-window",
+      "focal": {
+        "x": 0.7,
+        "y": 0.45
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-coffee-window.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 198228,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-coffee-window.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2523093
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 6874522,
+        "pageUrl": "https://www.pexels.com/photo/woman-sitting-in-an-armchair-and-drinking-coffee-6874522/",
+        "photographer": "Teona Swift",
+        "photographerUrl": "https://www.pexels.com/@teona-swift",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "e901f47b3398ac0c10bb434510b7d81d72e4565e",
+    "bytes": 198228,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-e901f47b3398ac0c10bb434510b7d81d72e4565e-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-reading-smile",
+    "file": "public/photos/lifestyle/lifestyle-reading-smile.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-reading-smile",
+      "category": "lifestyle",
+      "alt": "A smiling older man reads a hardback book, resting his chin on his hand.",
+      "usage": "Lifestyle interests (Library)",
+      "motion": "Static",
+      "focal": {
+        "x": 0.45,
+        "y": 0.4
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-reading-smile.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 139978,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-reading-smile.jpg",
+        "width": 6541,
+        "height": 4361,
+        "bytes": 2530255
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 6158662,
+        "pageUrl": "https://www.pexels.com/photo/man-reading-book-6158662/",
+        "photographer": "cottonbro studio",
+        "photographerUrl": "https://www.pexels.com/@cottonbro",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "af0caab789963a8d1bb4beb2b35897a0e3ff88dc",
+    "bytes": 139978,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-af0caab789963a8d1bb4beb2b35897a0e3ff88dc-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-reading-armchair",
+    "file": "public/photos/lifestyle/lifestyle-reading-armchair.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-reading-armchair",
+      "category": "lifestyle",
+      "alt": "An older woman in a white robe reads in a wingback chair.",
+      "usage": "Accommodations personal; Lifestyle quiet",
+      "motion": "Static",
+      "focal": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-reading-armchair.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 95502,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-reading-armchair.jpg",
+        "width": 6441,
+        "height": 4294,
+        "bytes": 2449515
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 6916281,
+        "pageUrl": "https://www.pexels.com/photo/woman-in-white-robe-sitting-on-brown-couch-6916281/",
+        "photographer": "cottonbro studio",
+        "photographerUrl": "https://www.pexels.com/@cottonbro",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "4a721df61a30c18231e2b504668f1fda45f59024",
+    "bytes": 95502,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-4a721df61a30c18231e2b504668f1fda45f59024-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-watercolor-window",
+    "file": "public/photos/lifestyle/lifestyle-watercolor-window.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-watercolor-window",
+      "category": "lifestyle",
+      "alt": "A person paints in watercolor at a sunny window beside a vase of lilies.",
+      "usage": "Lifestyle interests (Studio); Home everyday",
+      "motion": "Image sequence frame with the brush detail",
+      "focal": {
+        "x": 0.65,
+        "y": 0.45
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-watercolor-window.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 211094,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-watercolor-window.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2152429
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 7859521,
+        "pageUrl": "https://www.pexels.com/photo/a-woman-painting-an-artwork-in-a-sketchpad-7859521/",
+        "photographer": "Greta Hoffman",
+        "photographerUrl": "https://www.pexels.com/@greta-hoffman",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "764b0abfabb4c41620f34dedc54e0012017a76ee",
+    "bytes": 211094,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-764b0abfabb4c41620f34dedc54e0012017a76ee-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-brush-detail",
+    "file": "public/photos/lifestyle/lifestyle-brush-detail.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-brush-detail",
+      "category": "lifestyle",
+      "alt": "Close view of a hand painting a landscape in watercolor.",
+      "usage": "Lifestyle interests",
+      "motion": "Macro plate; scale-in from detail to wide",
+      "focal": {
+        "x": 0.45,
+        "y": 0.6
+      },
+      "src": "/photos/lifestyle/lifestyle-brush-detail.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 153824,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-brush-detail.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 1717784
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 29559069,
+        "pageUrl": "https://www.pexels.com/photo/close-up-of-hands-painting-a-watercolor-landscape-29559069/",
+        "photographer": "Fahad Puthawala",
+        "photographerUrl": "https://www.pexels.com/@fahadputhawala",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "8ce33be6d8813830a4794b4cfa407d601927c712",
+    "bytes": 153824,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-8ce33be6d8813830a4794b4cfa407d601927c712-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-cards-friends",
+    "file": "public/photos/lifestyle/lifestyle-cards-friends.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-cards-friends",
+      "category": "lifestyle",
+      "alt": "Three women play cards around a small table with glasses of juice.",
+      "usage": "Lifestyle contribute; Home everyday",
+      "motion": "Static",
+      "focal": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-cards-friends.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 220280,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-cards-friends.jpg",
+        "width": 6720,
+        "height": 4480,
+        "bytes": 1713774
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 8086754,
+        "pageUrl": "https://www.pexels.com/photo/three-elderly-women-playing-cards-8086754/",
+        "photographer": "Yaroslav Shuraev",
+        "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "91a71f565bdd93af4f95fc764535b620f4bf68a1",
+    "bytes": 220280,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-91a71f565bdd93af4f95fc764535b620f4bf68a1-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-cards-couple",
+    "file": "public/photos/lifestyle/lifestyle-cards-couple.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-cards-couple",
+      "category": "lifestyle",
+      "alt": "A woman and a man play cards at a round wooden table in a bright room.",
+      "usage": "Lifestyle rhythm",
+      "motion": "Static",
+      "focal": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-cards-couple.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 462286,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-cards-couple.jpg",
+        "width": 6419,
+        "height": 4279,
+        "bytes": 3817621
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 38774933,
+        "pageUrl": "https://www.pexels.com/photo/elderly-couple-enjoying-card-game-indoors-38774933/",
+        "photographer": "Jelly Marketing",
+        "photographerUrl": "https://www.pexels.com/@jellymarketing",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "cb2f301b828631ac561d999038ce7769fa398457",
+    "bytes": 462286,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-cb2f301b828631ac561d999038ce7769fa398457-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-conversation-plants",
+    "file": "public/photos/lifestyle/lifestyle-conversation-plants.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-conversation-plants",
+      "category": "lifestyle",
+      "alt": "A woman with short gray hair listens to a friend over coffee among tall plants.",
+      "usage": "About belief; Our team approach",
+      "motion": "Static",
+      "focal": {
+        "x": 0.4,
+        "y": 0.4
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-conversation-plants.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 338582,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-conversation-plants.jpg",
+        "width": 6720,
+        "height": 4480,
+        "bytes": 3810469
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 6787761,
+        "pageUrl": "https://www.pexels.com/photo/woman-smiling-while-looking-at-her-man-6787761/",
+        "photographer": "Marcus Aurelius",
+        "photographerUrl": "https://www.pexels.com/@marcus-aurelius",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "4800bb1d3b6f3284375d6c408c3d351c0a13a700",
+    "bytes": 338582,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-4800bb1d3b6f3284375d6c408c3d351c0a13a700-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-piano",
+    "file": "public/photos/lifestyle/lifestyle-piano.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-piano",
+      "category": "lifestyle",
+      "alt": "A man plays an upright piano from sheet music in a room with parquet floors.",
+      "usage": "Lifestyle music; Our home commons",
+      "motion": "Static",
+      "focal": {
+        "x": 0.55,
+        "y": 0.45
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-piano.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 260808,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-piano.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2618493
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 10251762,
+        "pageUrl": "https://www.pexels.com/photo/man-in-a-suit-playing-the-piano-10251762/",
+        "photographer": "cottonbro studio",
+        "photographerUrl": "https://www.pexels.com/@cottonbro",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "1edc57fb86bffbb98f31b754c4708d2636940d49",
+    "bytes": 260808,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-1edc57fb86bffbb98f31b754c4708d2636940d49-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-stretch-class",
+    "file": "public/photos/lifestyle/lifestyle-stretch-class.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-stretch-class",
+      "category": "lifestyle",
+      "alt": "Three women stretch on yoga mats in a bright studio with shelves of equipment.",
+      "usage": "Lifestyle movement; Care and support wellbeing",
+      "motion": "Static",
+      "focal": {
+        "x": 0.55,
+        "y": 0.55
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-stretch-class.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 373450,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-stretch-class.jpg",
+        "width": 6202,
+        "height": 4135,
+        "bytes": 2629872
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 5992856,
+        "pageUrl": "https://www.pexels.com/photo/women-meditating-5992856/",
+        "photographer": "Kampus Production",
+        "photographerUrl": "https://www.pexels.com/@kampus",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "1c36be79e722fb01630687cac22d55b070036ddf",
+    "bytes": 373450,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-1c36be79e722fb01630687cac22d55b070036ddf-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-grandchild-photos",
+    "file": "public/photos/lifestyle/lifestyle-grandchild-photos.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-grandchild-photos",
+      "category": "lifestyle",
+      "alt": "A grandfather and grandmother look at photographs with their granddaughter at the table.",
+      "usage": "Home family; Our team families",
+      "motion": "Static",
+      "focal": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-grandchild-photos.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 286942,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-grandchild-photos.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 4032919
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 5591205,
+        "pageUrl": "https://www.pexels.com/photo/a-family-sitting-at-the-table-5591205/",
+        "photographer": "Tima Miroshnichenko",
+        "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "57850a2f13b92a931ea28b230eebb429f6630b48",
+    "bytes": 286942,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-57850a2f13b92a931ea28b230eebb429f6630b48-2560x1707-webp"
+  },
+  {
+    "key": "lifestyle-garden-harvest",
+    "file": "public/photos/lifestyle/lifestyle-garden-harvest.webp",
+    "width": 2560,
+    "height": 1709,
+    "metadata": {
+      "id": "lifestyle-garden-harvest",
+      "category": "lifestyle",
+      "alt": "A woman with long gray braids harvests lettuce from a raised vegetable bed.",
+      "usage": "Lifestyle garden; Home outdoors",
+      "motion": "Static",
+      "focal": {
+        "x": 0.45,
+        "y": 0.45
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-garden-harvest.webp",
+      "width": 2560,
+      "height": 1709,
+      "bytes": 387892,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-garden-harvest.jpg",
+        "width": 6016,
+        "height": 4016,
+        "bytes": 2087550
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 7658811,
+        "pageUrl": "https://www.pexels.com/photo/an-elderly-man-in-a-vegetable-garden-7658811/",
+        "photographer": "Kampus Production",
+        "photographerUrl": "https://www.pexels.com/@kampus",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "112ac926a5731ec0826c41d1e9221f6f32f953cc",
+    "bytes": 387892,
+    "aspectRatio": 1.4979520187244002,
+    "_id": "image-112ac926a5731ec0826c41d1e9221f6f32f953cc-2560x1709-webp"
+  },
+  {
+    "key": "lifestyle-garden-smile",
+    "file": "public/photos/lifestyle/lifestyle-garden-smile.webp",
+    "width": 2560,
+    "height": 1707,
+    "metadata": {
+      "id": "lifestyle-garden-smile",
+      "category": "lifestyle",
+      "alt": "A smiling woman in gardening gloves stands among foxgloves and shrubs.",
+      "usage": "Lifestyle garden",
+      "motion": "Static",
+      "focal": {
+        "x": 0.35,
+        "y": 0.4
+      },
+      "people": true,
+      "src": "/photos/lifestyle/lifestyle-garden-smile.webp",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 587138,
+      "original": {
+        "path": "assets/photos/originals/lifestyle/lifestyle-garden-smile.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2628902
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 9710821,
+        "pageUrl": "https://www.pexels.com/photo/smiling-elderly-woman-cutting-trees-and-bushes-in-garden-9710821/",
+        "photographer": "Centre for Ageing Better",
+        "photographerUrl": "https://www.pexels.com/@centre-for-ageing-better-55954677",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "634ef33c8a62d37770e8893a0ae7f0225d745454",
+    "bytes": 587138,
+    "aspectRatio": 1.4997070884592854,
+    "_id": "image-634ef33c8a62d37770e8893a0ae7f0225d745454-2560x1707-webp"
+  },
+  {
+    "key": "outdoors-kitchen-garden",
+    "file": "public/photos/outdoors/outdoors-kitchen-garden.webp",
+    "width": 3840,
+    "height": 2562,
+    "metadata": {
+      "id": "outdoors-kitchen-garden",
+      "category": "outdoors",
+      "alt": "A kitchen garden with marigolds, kale and a wheelbarrow in morning sun.",
+      "usage": "Lifestyle garden; Dining kitchen",
+      "motion": "Static",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "src": "/photos/outdoors/outdoors-kitchen-garden.webp",
+      "width": 3840,
+      "height": 2562,
+      "bytes": 3612450,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-kitchen-garden.jpg",
+        "width": 8368,
+        "height": 5584,
+        "bytes": 11809481
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 38585885,
+        "pageUrl": "https://www.pexels.com/photo/colorful-vegetable-garden-with-gardening-tools-38585885/",
+        "photographer": "Bob Jenkin",
+        "photographerUrl": "https://www.pexels.com/@bob-jenkin-2007649943",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "b871bcc502448da71b17c7ab130734dfe78a74db",
+    "bytes": 3612450,
+    "aspectRatio": 1.4988290398126465,
+    "_id": "image-b871bcc502448da71b17c7ab130734dfe78a74db-3840x2562-webp"
+  },
+  {
+    "key": "outdoors-lakeside-path",
+    "file": "public/photos/outdoors/outdoors-lakeside-path.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-lakeside-path",
+      "category": "outdoors",
+      "alt": "A shaded path through pines along the lakeshore, with two benches facing the water.",
+      "usage": "Our home shore; Amenities outdoor",
+      "motion": "Forward path push",
+      "focal": {
+        "x": 0.45,
+        "y": 0.55
+      },
+      "src": "/photos/outdoors/outdoors-lakeside-path.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 1575318,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-lakeside-path.jpg",
+        "width": 8256,
+        "height": 5504,
+        "bytes": 6612469
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 33075964,
+        "pageUrl": "https://www.pexels.com/photo/scenic-lakeside-pathway-with-benches-in-forest-33075964/",
+        "photographer": "Guohua Song",
+        "photographerUrl": "https://www.pexels.com/@railgunbreaker",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "dd64fbaaa2162b2befc9b5cc9c2b08c39881a4c3",
+    "bytes": 1575318,
+    "aspectRatio": 1.5,
+    "_id": "image-dd64fbaaa2162b2befc9b5cc9c2b08c39881a4c3-3840x2560-webp"
+  },
+  {
+    "key": "outdoors-bench-misty-lake",
+    "file": "public/photos/outdoors/outdoors-bench-misty-lake.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-bench-misty-lake",
+      "category": "outdoors",
+      "alt": "A simple log bench on the grass above a misty lake and wooded islands.",
+      "usage": "Home outdoors; FAQ and Resources opening",
+      "motion": "Static, quiet plate",
+      "focal": {
+        "x": 0.6,
+        "y": 0.6
+      },
+      "src": "/photos/outdoors/outdoors-bench-misty-lake.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 776978,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-bench-misty-lake.jpg",
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2304847
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 29343056,
+        "pageUrl": "https://www.pexels.com/photo/tranquil-misty-autumn-lake-with-forest-view-29343056/",
+        "photographer": "Surdu Horia",
+        "photographerUrl": "https://www.pexels.com/@surdu-horia-743788511",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "d37e1c481386c4075d4223a014940e02d827450f",
+    "bytes": 776978,
+    "aspectRatio": 1.5,
+    "_id": "image-d37e1c481386c4075d4223a014940e02d827450f-3840x2560-webp"
+  },
+  {
+    "key": "outdoors-chairs-dock",
+    "file": "public/photos/outdoors/outdoors-chairs-dock.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-chairs-dock",
+      "category": "outdoors",
+      "alt": "Two dark Adirondack chairs on a wet dock facing a calm lake and forested hills.",
+      "usage": "Home invitation; Contact visiting",
+      "motion": "End frame of the journey; holds behind the inquiry invitation",
+      "focal": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "src": "/photos/outdoors/outdoors-chairs-dock.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 332518,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-chairs-dock.jpg",
+        "width": 6240,
+        "height": 4160,
+        "bytes": 1813887
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 14332063,
+        "pageUrl": "https://www.pexels.com/photo/two-deck-chairs-by-the-lake-in-quebec-14332063/",
+        "photographer": "Luc",
+        "photographerUrl": "https://www.pexels.com/@luc-241207200",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "5e4f0c7f1aa9bf7a6fd1de43cba3b67120290680",
+    "bytes": 332518,
+    "aspectRatio": 1.5,
+    "_id": "image-5e4f0c7f1aa9bf7a6fd1de43cba3b67120290680-3840x2560-webp"
+  },
+  {
+    "key": "outdoors-walk-lakeside-trees",
+    "file": "public/photos/outdoors/outdoors-walk-lakeside-trees.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-walk-lakeside-trees",
+      "category": "outdoors",
+      "alt": "An older couple walk together on a lakeside path between birch trees.",
+      "usage": "Home everyday; Lifestyle movement",
+      "motion": "Parallax between trunks and path",
+      "focal": {
+        "x": 0.6,
+        "y": 0.6
+      },
+      "people": true,
+      "src": "/photos/outdoors/outdoors-walk-lakeside-trees.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 1592546,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-walk-lakeside-trees.jpg",
+        "width": 6595,
+        "height": 4397,
+        "bytes": 4420480
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 8795091,
+        "pageUrl": "https://www.pexels.com/photo/affectionate-elderly-couples-walking-in-a-park-8795091/",
+        "photographer": "Anastasia  Shuraeva",
+        "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "a712e1b296f0820b138cfdd36f430538d821299f",
+    "bytes": 1592546,
+    "aspectRatio": 1.5,
+    "_id": "image-a712e1b296f0820b138cfdd36f430538d821299f-3840x2560-webp"
+  },
+  {
+    "key": "outdoors-walk-path-together",
+    "file": "public/photos/outdoors/outdoors-walk-path-together.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-walk-path-together",
+      "category": "outdoors",
+      "alt": "An older couple walk away along a tree-lined path by the water, arm in arm.",
+      "usage": "Care and support approach; About",
+      "motion": "Static",
+      "focal": {
+        "x": 0.6,
+        "y": 0.55
+      },
+      "people": true,
+      "src": "/photos/outdoors/outdoors-walk-path-together.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 600326,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-walk-path-together.jpg",
+        "width": 6370,
+        "height": 4247,
+        "bytes": 2408067
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 8796067,
+        "pageUrl": "https://www.pexels.com/photo/man-and-woman-walking-on-the-park-8796067/",
+        "photographer": "Anastasia  Shuraeva",
+        "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "b3d0bb60222d205a2dd62d719dc4e2cf41030dd0",
+    "bytes": 600326,
+    "aspectRatio": 1.5,
+    "_id": "image-b3d0bb60222d205a2dd62d719dc4e2cf41030dd0-3840x2560-webp"
+  },
+  {
+    "key": "outdoors-couple-by-water",
+    "file": "public/photos/outdoors/outdoors-couple-by-water.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-couple-by-water",
+      "category": "outdoors",
+      "alt": "A smiling woman with silver hair stands with her partner by the water.",
+      "usage": "About belief; Home family",
+      "motion": "Static",
+      "focal": {
+        "x": 0.6,
+        "y": 0.5
+      },
+      "people": true,
+      "src": "/photos/outdoors/outdoors-couple-by-water.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 523622,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-couple-by-water.jpg",
+        "width": 6720,
+        "height": 4480,
+        "bytes": 2475444
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 8796052,
+        "pageUrl": "https://www.pexels.com/photo/close-up-photo-of-an-elderly-couple-8796052/",
+        "photographer": "Anastasia  Shuraeva",
+        "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "9638969e16b8ed5bd11f8e78bb899740a05d1c41",
+    "bytes": 523622,
+    "aspectRatio": 1.5,
+    "_id": "image-9638969e16b8ed5bd11f8e78bb899740a05d1c41-3840x2560-webp"
+  },
+  {
+    "key": "outdoors-timber-walkway",
+    "file": "public/photos/outdoors/outdoors-timber-walkway.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-timber-walkway",
+      "category": "outdoors",
+      "alt": "A covered walkway under a warm timber ceiling, open on one side to a planted gravel garden with boulders.",
+      "usage": "Our home courtyard; Amenities outdoor",
+      "motion": "Forward push along the eave line",
+      "focal": {
+        "x": 0.45,
+        "y": 0.55
+      },
+      "src": "/photos/outdoors/outdoors-timber-walkway.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 1099322,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-timber-walkway.jpg",
+        "width": 6240,
+        "height": 4160,
+        "bytes": 3413072
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 33987964,
+        "pageUrl": "https://www.pexels.com/photo/modern-architectural-structure-blending-nature-33987964/",
+        "photographer": "Wellington  Franzao",
+        "photographerUrl": "https://www.pexels.com/@wellington-franzao-295720526",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "7bde40737b12878f7eb71d84b290cf3553acd37f",
+    "bytes": 1099322,
+    "aspectRatio": 1.5,
+    "_id": "image-7bde40737b12878f7eb71d84b290cf3553acd37f-3840x2560-webp"
+  },
+  {
+    "key": "outdoors-fire-table-deck",
+    "file": "public/photos/outdoors/outdoors-fire-table-deck.webp",
+    "width": 3840,
+    "height": 2560,
+    "metadata": {
+      "id": "outdoors-fire-table-deck",
+      "category": "outdoors",
+      "alt": "Cushioned chairs and a sofa around a square stone fire table on a wooden deck, seen from above.",
+      "usage": "Home outdoors; gallery outdoors",
+      "motion": "Overhead plate; flame glow loop",
+      "focal": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "src": "/photos/outdoors/outdoors-fire-table-deck.webp",
+      "width": 3840,
+      "height": 2560,
+      "bytes": 2036574,
+      "original": {
+        "path": "assets/photos/originals/outdoors/outdoors-fire-table-deck.jpg",
+        "width": 6720,
+        "height": 4480,
+        "bytes": 6474581
+      },
+      "source": {
+        "provider": "Pexels",
+        "providerId": 9584819,
+        "pageUrl": "https://www.pexels.com/photo/patio-with-fireplace-9584819/",
+        "photographer": "Nasim Didar",
+        "photographerUrl": "https://www.pexels.com/@nasim-didar-1990505",
+        "license": "Pexels License",
+        "licenseUrl": "https://www.pexels.com/license/",
+        "acquired": "2026-11-25"
+      }
+    },
+    "sha1": "2c32c36ad4a5364bde26170290de32d677d2d2d4",
+    "bytes": 2036574,
+    "aspectRatio": 1.5,
+    "_id": "image-2c32c36ad4a5364bde26170290de32d677d2d2d4-3840x2560-webp"
+  },
+  {
+    "key": "logo",
+    "file": "public/brand/evermere-horizontal-primary.svg",
+    "sha1": "b13d7934f488e2efb5a8c8844b3f13c17e5e94c5",
+    "bytes": 7966,
+    "width": 186,
+    "height": 48,
+    "aspectRatio": 3.875,
+    "_id": "image-b13d7934f488e2efb5a8c8844b3f13c17e5e94c5-186x48-svg"
+  },
+  {
+    "key": "logoDark",
+    "file": "public/brand/evermere-horizontal-reversed.svg",
+    "sha1": "ce402e1acbf4298c8ca6e91573133d0d0e5d6857",
+    "bytes": 7966,
+    "width": 186,
+    "height": 48,
+    "aspectRatio": 3.875,
+    "_id": "image-ce402e1acbf4298c8ca6e91573133d0d0e5d6857-186x48-svg"
+  },
+  {
+    "key": "favicon",
+    "file": "public/favicon.svg",
+    "sha1": "516ea76a2931260d4256d2a0e4a1fd8d45f56ef8",
+    "bytes": 273,
+    "width": 48,
+    "height": 48,
+    "aspectRatio": 1,
+    "_id": "image-516ea76a2931260d4256d2a0e4a1fd8d45f56ef8-48x48-svg"
+  }
+]

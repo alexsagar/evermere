@@ -1,0 +1,22 @@
+{
+  "mode": "local-export",
+  "documents": 61,
+  "assets": 59,
+  "totalSanityDocumentsIncludingAssets": 120,
+  "photographs": 56,
+  "types": {
+    "accommodation": 3,
+    "article": 4,
+    "careService": 5,
+    "faq": 18,
+    "gallery": 7,
+    "homePage": 1,
+    "inquirySettings": 1,
+    "navigation": 1,
+    "page": 14,
+    "siteSettings": 1,
+    "teamMember": 6
+  },
+  "bytes": 42258255,
+  "remoteWrites": 0
+}

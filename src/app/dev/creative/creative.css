@@ -1,0 +1,50 @@
+/* Static storyboard masks for /dev/creative. Mid-transition states only; no animation. */
+.creative .arch-frame {
+  clip-path: inset(calc((1 - var(--arch)) * 50%) calc((1 - var(--arch)) * 50%) 0 calc((1 - var(--arch)) * 50%) round 999px 999px 0 0);
+}
+
+.creative .mask-arch .mask-layer { clip-path: inset(18% 28% 0 28% round 999px 999px 0 0); }
+.creative .mask-door .mask-layer { clip-path: inset(0 0 0 50%); }
+.creative .mask-grid .mask-layer {
+  mask-image: conic-gradient(#000 25%, transparent 0 50%, #000 0 75%, transparent 0);
+  mask-size: 33.34% 50%;
+}
+.creative .mask-lower .mask-layer { clip-path: inset(45% 0 0 0); }
+.creative .mask-gather .mask-layer { clip-path: inset(0 20% 0 20%); }
+.creative .mask-split .mask-layer { clip-path: polygon(0 0, 32% 0, 32% 100%, 0 100%, 0 0, 68% 0, 100% 0, 100% 100%, 68% 100%, 68% 0); }
+.creative .mask-settle .mask-layer { clip-path: inset(0 0 40% 0); }
+
+.creative .window-grid {
+  mask-image: linear-gradient(90deg, #000 32.5%, transparent 0 33.5%, #000 0 66%, transparent 0 67%, #000 0),
+    linear-gradient(#000 49.5%, transparent 0 50.5%, #000 0);
+  mask-composite: intersect;
+}
+
+/* Page concept openings: each places its headline differently. */
+.creative .concept-title { max-width: 80%; }
+.creative .concept-0 .concept-title { left: 0; bottom: 0; }
+.creative .concept-1 .concept-frame { clip-path: inset(0 round 999px 999px 0 0); }
+.creative .concept-1 .concept-title { left: 50%; bottom: 0; transform: translateX(-50%); }
+.creative .concept-2 .concept-title { right: 0; top: 0; }
+.creative .concept-3 .concept-title { left: 0; top: 0; }
+.creative .concept-4 .concept-frame { margin-right: 15%; }
+.creative .concept-4 .concept-title { right: 0; bottom: 12%; }
+.creative .concept-5 .concept-title { left: 0; right: 0; bottom: 0; max-width: none; background: var(--color-royal); }
+
+/* Full-resolution viewer via :target, no script required. */
+.creative .viewer { display: none; }
+.creative .viewer:target {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: var(--color-midnight);
+  color: var(--color-white);
+}
+.creative .viewer-close { justify-self: end; }
+.creative .viewer-scroll { overflow: auto; }
+.creative .viewer-scroll img { max-width: none; height: auto; }
+.creative .viewer-meta { max-width: 90ch; color: var(--color-lavender); }

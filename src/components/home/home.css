@@ -1,0 +1,244 @@
+/* Homepage compositions. Each section has its own scale, crop and rhythm.
+   Brand tokens only; photographs supply all other color. */
+
+
+/* A. Hero ---------------------------------------------------------------- */
+.hero { position: relative; background: var(--color-midnight); color: var(--color-white); padding-top: 4.5rem; }
+.hero-photo { position: relative; height: 62svh; min-height: 22rem; overflow: hidden; }
+.hero-cover { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero-cover:not(.is-live) { display: none; }
+@keyframes hero-failsafe { to { opacity: 0; visibility: hidden; } }
+@keyframes hero-header-failsafe { from { opacity: 0; } to { opacity: 1; } }
+.hero-panel { position: relative; padding: 2rem 1rem 3rem; }
+.hero-title { font-size: clamp(2.375rem, 5.4vw, 4.75rem); line-height: 1.08; letter-spacing: -0.035em; font-weight: 600; max-width: 15ch; }
+.hero-intro { margin-top: 1.5rem; max-width: 46ch; font-size: var(--text-lead); line-height: 1.5; color: var(--color-lavender); }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2rem; margin-top: 2rem; }
+.hero-btn { min-height: 3.5rem; padding: 0 1.75rem; font-size: 1.125rem; }
+.hero-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 650; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.3em; }
+.hero-link:hover { color: var(--color-lavender); }
+.hero .line { padding-bottom: 0.05em; }
+@media (min-width: 768px) {
+  .hero { padding-top: 5.5rem; }
+  .hero-photo { height: 64svh; }
+  .hero-panel { padding: 2.5rem 2rem 4rem; }
+}
+/* Large screens: the photograph fills the frame under the header; the panel
+   stands on the floor line at the left, like a door left ajar. */
+@media (min-width: 1024px) {
+  .hero { height: 100svh; min-height: 42rem; }
+  .hero-photo { position: absolute; inset: 5.5rem 0 0 0; height: auto; }
+  .hero-panel { position: absolute; left: 0; bottom: 0; width: min(48rem, 52vw); padding: 3.5rem 3rem 3rem; background: var(--color-midnight); }
+  /* Short screens: the headline scales with height so the panel never reaches the navigation. */
+  .hero-title { font-size: min(clamp(2.375rem, 5.4vw, 4.75rem), 8.2svh); }
+  .hero-intro { font-size: min(var(--text-lead), 2.9svh); }
+}
+
+/* B. Welcome --------------------------------------------------------------- */
+.welcome { background: var(--color-cloud); padding: 6rem 0 0; }
+.welcome-text { display: grid; gap: 2rem; padding: 0 1rem; max-width: 1320px; margin: 0 auto; }
+.welcome-title { font-size: clamp(2.25rem, 5.6vw, 5rem); line-height: 1.04; letter-spacing: -0.035em; font-weight: 600; max-width: 16ch; }
+.welcome-body p { font-size: var(--text-lead); line-height: 1.55; max-width: 44ch; }
+.welcome-body p + p { margin-top: 1.25rem; }
+.welcome-frame { position: relative; margin-top: 4rem; height: 70svh; min-height: 22rem; overflow: hidden; background: var(--color-midnight); }
+@media (min-width: 768px) { .welcome { padding-top: 9rem; } .welcome-text { padding: 0 2rem; } }
+@media (min-width: 1024px) {
+  .welcome { padding-top: 12rem; }
+  .welcome-text { grid-template-columns: 7fr 4fr; align-items: end; gap: 4rem; padding: 0 3rem; }
+  .welcome-frame { margin-top: 7rem; height: 88svh; }
+}
+
+/* C. Journey --------------------------------------------------------------- */
+.journey { background: var(--color-midnight); }
+.jr-scene { position: relative; height: 80svh; min-height: 26rem; overflow: hidden; background: var(--color-midnight); }
+.jr-text { position: absolute; left: 1rem; right: 1rem; bottom: 1rem; max-width: 34rem; padding: 1.75rem; background: var(--color-midnight); color: var(--color-white); }
+.jr-text p { margin-top: 1rem; color: var(--color-lavender); }
+.jr-title { font-size: clamp(1.75rem, 3.4vw, 2.75rem); line-height: 1.1; letter-spacing: -0.02em; font-weight: 600; }
+@media (min-width: 768px) { .jr-text { left: 2rem; bottom: 2rem; padding: 2.25rem; } }
+@media (min-width: 1024px) { .jr-text { left: 3rem; bottom: 3rem; } }
+.journey[data-pinned] .jr-pin { position: relative; height: 100svh; overflow: hidden; }
+.journey[data-pinned] .jr-scene { position: absolute; inset: 0; height: auto; min-height: 0; }
+
+/* D. Rooms ----------------------------------------------------------------- */
+.rooms { background: var(--color-white); padding: 6rem 1rem; }
+.rooms-head, .rooms-grid { max-width: 1320px; margin: 0 auto; }
+.rooms-head { display: grid; gap: 1.5rem; }
+.rooms-title { font-size: clamp(2rem, 4.4vw, 3.75rem); line-height: 1.06; letter-spacing: -0.03em; font-weight: 600; max-width: 18ch; }
+.rooms-intro p { font-size: var(--text-lead); line-height: 1.55; max-width: 52ch; }
+.rooms-intro p + p { margin-top: 1rem; }
+.rooms-grid { margin-top: 3.5rem; }
+.rooms-stage { display: none; }
+.rm-layer { position: absolute; inset: 0; opacity: 0; transform: scale(1.03); transition: opacity 600ms var(--ease-out-soft), transform 900ms var(--ease-out-soft); }
+.rm-layer[data-active] { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .rm-layer { transition: opacity 200ms ease; transform: none; } }
+.rm-item { padding: 2.5rem 0; border-top: 1px solid var(--color-lavender); }
+.rm-inline { margin-bottom: 1.75rem; }
+.rm-title { font-size: clamp(1.75rem, 3vw, 2.5rem); line-height: 1.1; letter-spacing: -0.02em; font-weight: 600; }
+.rm-summary { margin-top: 1rem; font-size: var(--text-lead); line-height: 1.55; max-width: 40ch; }
+.rm-features { margin-top: 1.5rem; display: grid; gap: 0.5rem; }
+.rm-features li { padding-left: 1.25rem; position: relative; }
+.rm-features li::before { content: ""; position: absolute; left: 0; top: 0.75em; width: 0.6rem; height: 2px; background: var(--color-royal); }
+.rm-cta { border: 0; padding-top: 1rem; }
+@media (min-width: 768px) { .rooms { padding: 8rem 2rem; } }
+@media (min-width: 1024px) {
+  .rooms { padding: 11rem 3rem 8rem; }
+  .rooms-head { grid-template-columns: 6fr 5fr; align-items: end; gap: 4rem; }
+  .rooms-grid { display: grid; grid-template-columns: 7fr 4fr; gap: 5rem; margin-top: 6rem; }
+  .rooms-stage { display: block; position: sticky; top: 8rem; align-self: start; }
+  /* Short screens: cap the sticky frame so the photograph and caption stay in view. */
+  .rooms-frame { position: relative; aspect-ratio: 4 / 3; max-height: calc(100svh - 18rem); width: 100%; overflow: hidden; background: var(--color-midnight); }
+  .rm-layer { position: absolute; inset: 0; opacity: 0; transform: scale(1.03); transition: opacity 600ms var(--ease-out-soft), transform 900ms var(--ease-out-soft); }
+.rm-layer[data-active] { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .rm-layer { transition: opacity 200ms ease; transform: none; } }
+  .rooms-caption { margin-top: 1rem; font-size: var(--text-small); max-width: 60ch; color: var(--color-midnight); }
+  .rooms-caption .rc-index { display: block; color: var(--color-royal); font-weight: 650; }
+  .rooms-caption strong { display: block; font-size: 1.125rem; font-weight: 650; margin-bottom: 0.25rem; }
+  .rm-inline { display: none; }
+  /* Active suite: a Royal threshold line draws across the top. Text keeps full contrast. */
+  .rm-item { position: relative; min-height: 88svh; padding: 3rem 0; }
+  .rm-item::before { content: ""; position: absolute; left: 0; right: 0; top: -1px; height: 3px; background: var(--color-royal); transform: scaleX(0); transform-origin: left; transition: transform 600ms var(--ease-out-soft); }
+  .rm-item[data-active]::before { transform: scaleX(1); }
+}
+
+/* E. Everyday: a collage, not a grid ---------------------------------------- */
+.everyday { position: relative; display: grid; grid-template-columns: repeat(6, 1fr); gap: 1rem; padding: 6rem 1rem; background: var(--color-lavender); overflow: hidden; }
+.ev-ph { position: relative; overflow: hidden; }
+.ev-copy { grid-column: 1 / -1; order: -1; margin-bottom: 2rem; }
+.ev-title { font-size: clamp(2.25rem, 5.4vw, 4.75rem); line-height: 1.08; letter-spacing: -0.035em; font-weight: 600; max-width: 13ch; }
+.ev-copy p { margin-top: 1.25rem; font-size: var(--text-lead); line-height: 1.55; max-width: 42ch; }
+/* Phones: two overlapping pairs, large enough to read as photographs. */
+.ev-a { grid-column: 1 / 6; grid-row: 2; aspect-ratio: 4 / 5; }
+.ev-b { grid-column: 4 / 7; grid-row: 2; aspect-ratio: 3 / 4; align-self: end; margin-bottom: -18%; z-index: 1; outline: 0.5rem solid var(--color-lavender); }
+.ev-c { grid-column: 1 / 4; grid-row: 3; aspect-ratio: 1; margin-top: 14%; }
+.ev-d { grid-column: 3 / 7; grid-row: 4; aspect-ratio: 4 / 3; margin-top: -10%; }
+@media (min-width: 1024px) {
+  .everyday { grid-template-columns: repeat(12, 1fr); grid-template-rows: auto auto; gap: 1.5rem; padding: 10rem 3rem; }
+  .ev-copy { grid-column: 6 / 10; grid-row: 1; order: 0; align-self: center; margin: 0; padding: 2rem 0 1rem; }
+  .ev-a { grid-column: 1 / 5; grid-row: 1; aspect-ratio: 3 / 4; align-self: start; }
+  .ev-b { grid-column: 10 / 13; grid-row: 1; aspect-ratio: 3 / 4; margin-top: -4rem; margin-bottom: 0; align-self: start; outline: 0; }
+  /* Lower row: the wide photograph moves left under the painter so no corner stands empty. */
+  .ev-c { grid-column: 2 / 8; grid-row: 2; aspect-ratio: 4 / 3; margin-top: 1rem; }
+  .ev-d { grid-column: 9 / 13; grid-row: 2; aspect-ratio: 4 / 5; margin-top: 6rem; align-self: start; }
+  .ev-c { grid-row: 2; }
+  .ev-copy { position: relative; z-index: 1; }
+}
+
+/* F. Dining: letterbox and an overlapping plate ------------------------------ */
+.dining { background: var(--color-white); padding: 6rem 0; }
+.dn-title { padding: 0 1rem; max-width: 1320px; margin: 0 auto; font-size: clamp(2.25rem, 5.4vw, 4.75rem); line-height: 1.04; letter-spacing: -0.035em; font-weight: 600; }
+.dn-wide { position: relative; margin-top: 3rem; aspect-ratio: 4 / 3; overflow: hidden; background: var(--color-midnight); }
+.dn-lower { display: grid; gap: 2rem; padding: 0 1rem; max-width: 1320px; margin: 0 auto; }
+.dn-plate { position: relative; width: 62%; aspect-ratio: 1; margin-top: -18%; margin-left: auto; overflow: hidden; outline: 0.75rem solid var(--color-white); }
+.dn-body p { font-size: var(--text-lead); line-height: 1.55; max-width: 46ch; }
+.dn-body p + p { margin-top: 1rem; }
+@media (min-width: 768px) { .dining { padding: 9rem 0; } .dn-title, .dn-lower { padding: 0 2rem; } .dn-wide { aspect-ratio: 16 / 9; } }
+@media (min-width: 1024px) {
+  .dining { padding: 11rem 0 9rem; }
+  .dn-title { padding: 0 3rem; max-width: none; text-align: right; }
+  .dn-title { margin-left: auto; max-width: 20ch; margin-right: 3rem; padding: 0; }
+  .dn-wide { aspect-ratio: 21 / 9; margin-top: 4rem; }
+  .dn-lower { grid-template-columns: 4fr 6fr; gap: 6rem; padding: 0 3rem; max-width: none; }
+  .dn-plate { width: 100%; margin: -9rem 0 0 0; outline-width: 1rem; }
+  .dn-body { padding-top: 4rem; }
+}
+
+/* G. Support: calm, under the arch ------------------------------------------ */
+.support { display: grid; gap: 3rem; padding: 6rem 1rem; background: var(--color-cloud); }
+.sp-arch { position: relative; width: min(80%, 26rem); aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; }
+.sp-title { font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1.08; letter-spacing: -0.025em; font-weight: 600; max-width: 20ch; }
+.sp-copy p { margin-top: 1.5rem; max-width: 58ch; font-size: 1.1875rem; line-height: 1.7; }
+@media (min-width: 768px) { .support { padding: 9rem 2rem; } }
+@media (min-width: 1024px) {
+  .support { grid-template-columns: 4fr 1fr 6fr; align-items: center; padding: 11rem 3rem; max-width: 1440px; margin: 0 auto; }
+  .sp-arch { width: 100%; }
+  .sp-copy { grid-column: 3; }
+}
+
+/* H. Outdoors: the shader arch ----------------------------------------------- */
+.outdoors { position: relative; background: var(--color-midnight); }
+.od-stage { position: relative; overflow: hidden; }
+.od-photos { position: relative; display: grid; }
+.od-from, .od-to { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.od-copy { position: relative; padding: 2.5rem 1rem 4rem; color: var(--color-white); max-width: 44rem; }
+.od-copy p { margin-top: 1.25rem; color: var(--color-lavender); font-size: var(--text-lead); line-height: 1.55; }
+.od-title { font-size: clamp(2rem, 4.6vw, 4rem); line-height: 1.05; letter-spacing: -0.03em; font-weight: 600; }
+/* Animated: a tall track with a sticky full-screen stage. */
+.outdoors.is-animated { height: 190svh; }
+/* Stage sits below the fixed header so nothing is hidden under it; the copy panel scrolls if a short screen cannot hold it. */
+.outdoors.is-animated .od-stage { position: sticky; top: 4.5rem; height: calc(100svh - 4.5rem); }
+@media (min-width: 768px) { .outdoors.is-animated .od-stage { top: 5.5rem; height: calc(100svh - 5.5rem); } }
+.outdoors.is-animated .od-photos { position: absolute; inset: 0; display: block; }
+.outdoors.is-animated .od-from, .outdoors.is-animated .od-to { position: absolute; inset: 0; aspect-ratio: auto; }
+.outdoors.is-animated .od-copy { position: absolute; left: 1rem; right: 1rem; bottom: 1rem; max-height: calc(100% - 2rem); overflow-y: auto; padding: 1.75rem; background: var(--color-midnight); }
+@media (min-width: 768px) { .outdoors.is-animated .od-copy { left: auto; right: 2rem; bottom: 2rem; width: 30rem; padding: 2.25rem; } .od-copy { padding: 3rem 2rem 5rem; } }
+@media (min-width: 1024px) { .outdoors.is-animated .od-copy { right: 3rem; bottom: 3rem; } }
+/* Short desktop windows: tighten the panel so its copy and link fit without an inner scrollbar. */
+@media (min-width: 768px) and (max-height: 760px) {
+  .outdoors.is-animated .od-copy { bottom: 1.5rem; padding: 1.75rem 2rem; }
+  .outdoors.is-animated .od-title { font-size: clamp(1.75rem, 3.2vw, 2.75rem); }
+  .outdoors.is-animated .od-copy p { margin-top: 0.875rem; font-size: 1rem; }
+}
+
+/* I. Family: Royal, photograph breaking the edge ------------------------------ */
+.family { display: grid; background: var(--color-royal); color: var(--color-white); }
+.fm-photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.fm-copy { padding: 3rem 1rem 5rem; }
+.fm-title { font-size: clamp(2.25rem, 5vw, 4.25rem); line-height: 1.04; letter-spacing: -0.035em; font-weight: 600; max-width: 14ch; }
+.fm-copy p { margin-top: 1.5rem; max-width: 46ch; font-size: var(--text-lead); line-height: 1.55; }
+@media (min-width: 768px) { .fm-copy { padding: 4rem 2rem 6rem; } }
+@media (min-width: 1024px) {
+  .family { grid-template-columns: 5fr 6fr; align-items: center; padding: 0 3rem 0 0; }
+  /* The photograph rises into the section above: family arriving across the threshold. */
+  .fm-photo { aspect-ratio: 4 / 5; margin-top: -7rem; margin-bottom: 5rem; z-index: 1; }
+  .fm-copy { padding: 6rem 0 6rem 5rem; }
+}
+
+/* J. Gallery preview: a sliding wall ----------------------------------------- */
+.gallery-preview { background: var(--color-midnight); color: var(--color-white); padding: 6rem 0; overflow: hidden; }
+.gp-head { display: grid; gap: 1.5rem; padding: 0 1rem; max-width: 1320px; margin: 0 auto; }
+.gp-head p { color: var(--color-lavender); font-size: var(--text-lead); line-height: 1.55; max-width: 46ch; }
+.gp-title { font-size: clamp(2rem, 4.4vw, 3.75rem); line-height: 1.06; letter-spacing: -0.03em; font-weight: 600; max-width: 16ch; }
+.gp-wall { display: flex; align-items: flex-start; gap: 1rem; margin-top: 3.5rem; padding: 0 1rem; width: max-content; }
+.gp-item { position: relative; flex: none; width: 70vw; overflow: hidden; }
+.gp-0 { aspect-ratio: 4 / 3; }
+.gp-1 { aspect-ratio: 3 / 4; width: 46vw; margin-top: 3rem; }
+.gp-2 { aspect-ratio: 16 / 10; margin-top: 1rem; }
+@media (min-width: 768px) { .gallery-preview { padding: 9rem 0; } .gp-head, .gp-wall { padding: 0 2rem; } }
+@media (min-width: 1024px) {
+  .gallery-preview { padding: 11rem 0; }
+  .gp-head { grid-template-columns: 6fr 5fr; align-items: end; gap: 4rem; padding: 0 3rem; }
+  .gp-wall { gap: 1.5rem; padding: 0 3rem; margin-top: 6rem; }
+  .gp-item { width: 30vw; }
+  .gp-1 { width: 20vw; margin-top: 6rem; }
+  .gp-2 { width: 26vw; margin-top: 2rem; }
+}
+/* Without motion the wall scrolls sideways natively. */
+@media (prefers-reduced-motion: reduce) { .gallery-preview .gp-wall { width: auto; overflow-x: auto; padding-bottom: 1rem; } }
+
+/* K. Invitation ------------------------------------------------------------- */
+.invitation { display: grid; gap: 3rem; padding: 6rem 1rem 7rem; background: var(--color-cloud); scroll-margin-top: 4.5rem; }
+.iv-arch { position: relative; width: min(72%, 24rem); aspect-ratio: 2 / 3; border-radius: 999px 999px 0 0; overflow: hidden; justify-self: end; }
+.iv-title { font-size: clamp(2.5rem, 6.4vw, 6rem); line-height: 1; letter-spacing: -0.04em; font-weight: 600; max-width: 12ch; }
+.iv-lead { margin-top: 1.75rem; font-size: var(--text-lead); line-height: 1.55; max-width: 46ch; }
+.iv-steps { margin-top: 2.5rem; display: grid; gap: 1rem; counter-reset: step; max-width: 46rem; }
+.iv-steps li { counter-increment: step; display: grid; grid-template-columns: 2.5rem 1fr; gap: 1rem; padding-top: 1rem; border-top: 2px solid var(--color-midnight); }
+.iv-steps li::before { content: counter(step); font-weight: 700; font-size: 1.375rem; line-height: 1.4; color: var(--color-royal); }
+.iv-actions { margin-top: 3rem; }
+.iv-phone { margin-top: 1.5rem; }
+@media (min-width: 768px) { .invitation { padding: 9rem 2rem; scroll-margin-top: 5.5rem; } }
+@media (min-width: 1024px) {
+  .invitation { grid-template-columns: 4fr 7fr; gap: 6rem; align-items: start; padding: 11rem 3rem 12rem; max-width: 1440px; margin: 0 auto; }
+  .iv-arch { width: 100%; position: sticky; top: 8rem; justify-self: stretch; }
+  .iv-copy { order: 0; }
+}
+@media (max-width: 1023px) { .iv-arch { order: 1; } }
+.everyday .text-link { color: var(--color-midnight); } /* Royal on Lavender is below 4.5:1 */
+
+/* Outdoors on phones: two full photographs stacked above the copy, no sticky arch. */
+@media (max-width: 767px) {
+  .outdoors.is-animated { height: auto; }
+  .outdoors.is-animated .od-stage { position: relative; top: 0; height: auto; }
+  .outdoors.is-animated .od-photos { position: relative; display: grid; gap: 0.5rem; }
+  .outdoors.is-animated .od-from, .outdoors.is-animated .od-to { position: relative; inset: auto; aspect-ratio: 4 / 5; }
+  .outdoors.is-animated .od-from { aspect-ratio: 16 / 10; }
+  .outdoors.is-animated .od-copy { position: relative; left: 0; right: 0; bottom: 0; max-height: none; overflow: visible; padding: 2.5rem 1rem 4rem; }
+}

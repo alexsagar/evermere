@@ -1,0 +1,28 @@
+/* Inquiry panel. Large type and targets for older visitors and families. */
+.iq-closed { display: inline-block; }
+.iq-trigger { min-height: 56px; padding: 0 1.75rem; font-size: 1.125rem; }
+.iq-panel { max-width: 56rem; background: var(--color-white); padding: 1.5rem; }
+@media (min-width: 768px) { .iq-panel { padding: 2.5rem; } }
+.iq-field label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+.iq-field input, .iq-field select, .iq-field textarea {
+  width: 100%; min-height: 56px; padding: 0.75rem 1rem; font: inherit; font-size: 1.125rem;
+  color: var(--color-midnight); background: var(--color-cloud); border: 2px solid var(--color-lavender);
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+.iq-field input:focus, .iq-field select:focus, .iq-field textarea:focus { outline: none; border-color: var(--color-royal); background: var(--color-white); }
+.iq-field [aria-invalid="true"] { border-color: var(--color-midnight); border-width: 3px; }
+.iq-error { margin-top: 0.5rem; font-weight: 600; padding-left: 0.75rem; border-left: 3px solid var(--color-midnight); }
+.iq-summary { padding: 1rem 1.25rem; background: var(--color-lavender); border-left: 4px solid var(--color-midnight); }
+.iq-summary a { text-decoration: underline; }
+.iq-choice { border: 0; padding: 0; margin: 0; min-width: 0; }
+.iq-choice legend { font-weight: 600; margin-bottom: 0.5rem; padding: 0; }
+.iq-options { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+.iq-options label, .iq-consent label { display: flex; align-items: center; gap: 0.75rem; min-height: 48px; font-weight: 500; cursor: pointer; }
+.iq-consent label { align-items: flex-start; padding-top: 0.5rem; }
+.iq-options input, .iq-consent input { width: 1.5rem; height: 1.5rem; min-height: 0; flex: none; padding: 0; border: 0; accent-color: var(--color-royal); }
+.iq-consent input { margin-top: 0.1rem; }
+.iq-choice[aria-invalid="true"] .iq-options, .iq-consent:has([aria-invalid="true"]) label { box-shadow: inset 4px 0 0 var(--color-midnight); padding-left: 1rem; }
+.iq-trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.iq-panel { position: relative; }
+.btn[aria-disabled="true"] { cursor: progress; opacity: 0.75; }
+@media (max-width: 640px) { .iq-panel { padding: 1.25rem 1rem; } .iq-panel form > .mt-8 { margin-top: 1.5rem; } }

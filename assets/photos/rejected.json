@@ -1,0 +1,254 @@
+[
+  {
+    "id": "exterior-windows-morning-sun",
+    "category": "exterior",
+    "from": "arch-cedar",
+    "n": 8,
+    "reason": "Parked car roof in the lower frame and a strong lens flare."
+  },
+  {
+    "id": "surroundings-forest-edge-fog",
+    "category": "surroundings",
+    "from": "lake-mist",
+    "n": 0,
+    "reason": "Flat, low-contrast forest strip; duplicates the misty lake shots without adding a place."
+  },
+  {
+    "id": "surroundings-lake-autumn",
+    "category": "surroundings",
+    "from": "lake-mist",
+    "n": 28,
+    "reason": "Over-processed, painterly texture at 100 percent."
+  },
+  {
+    "id": "surroundings-dock-blue-hour",
+    "category": "surroundings",
+    "from": "dock",
+    "n": 9,
+    "reason": "Wind turbines on the horizon and visible softness at full size."
+  },
+  {
+    "id": "surroundings-ferry-sound",
+    "category": "surroundings",
+    "from": "ferry",
+    "n": 9,
+    "reason": "Visible JPEG compression on the vessel at 100 percent; branded public ferry livery."
+  },
+  {
+    "id": "interiors-library-room",
+    "category": "interiors",
+    "from": "reading-nook",
+    "n": 15,
+    "reason": "Dated furniture and olive carpet; inconsistent with the contemporary interior set."
+  },
+  {
+    "id": "interiors-stair-window-light",
+    "category": "interiors",
+    "from": "stairs",
+    "n": 24,
+    "reason": "Radiator, green carpet and handrail read as institutional."
+  },
+  {
+    "id": "accommodations-suite-sitting-area",
+    "category": "accommodations",
+    "from": "bedroom",
+    "n": 0,
+    "reason": "Arid, treeless landscape outside the window contradicts the Puget Sound setting."
+  },
+  {
+    "id": "dining-family-table",
+    "category": "dining",
+    "from": "seniors-dinner",
+    "n": 13,
+    "reason": "Same shoot and people as lifestyle-grandchild-photos; repetitive."
+  },
+  {
+    "id": "lifestyle-visit-living-room",
+    "category": "lifestyle",
+    "from": "seniors-talk",
+    "n": 11,
+    "reason": "Awkward pose and expression; reads as staged."
+  },
+  {
+    "id": "outdoors-fire-terrace-dusk",
+    "category": "outdoors",
+    "from": "firepit",
+    "n": 16,
+    "reason": "Desert mountains behind the terrace contradict the setting."
+  },
+  {
+    "id": "outdoors-covered-walk",
+    "category": "outdoors",
+    "from": "porch",
+    "n": 4,
+    "reason": "Tropical planting along the walkway contradicts the setting."
+  },
+  {
+    "id": "outdoors-courtyard-wings",
+    "category": "outdoors",
+    "from": "courtyard",
+    "n": 21,
+    "reason": "Accepted in the first pass; withdrawn because the courtyard wings read as three stories, contradicting the two-story residence."
+  },
+  {
+    "id": "rejected-m2-bedroom-window-3",
+    "category": "accommodations",
+    "from": "m2-bedroom-window",
+    "n": 3,
+    "reason": "Visible noise at full size and an urban view."
+  },
+  {
+    "id": "rejected-m2-suite-sitting-1",
+    "category": "accommodations",
+    "from": "m2-suite-sitting",
+    "n": 1,
+    "reason": "Mattress on the floor and visible grain; reads as a studio set."
+  },
+  {
+    "id": "rejected-m2-bedroom-cozy-1",
+    "category": "accommodations",
+    "from": "m2-bedroom-cozy",
+    "n": 1,
+    "reason": "European radiator and paneling; shallow focus leaves most of the room soft."
+  },
+  {
+    "id": "rejected-m2-bedroom-cozy-16",
+    "category": "accommodations",
+    "from": "m2-bedroom-cozy",
+    "n": 16,
+    "reason": "Plum curtains and hotel styling outside the palette and setting."
+  },
+  {
+    "id": "rejected-m3-bed-bench-13",
+    "category": "accommodations",
+    "from": "m3-bed-bench",
+    "n": 13,
+    "reason": "Bed is an inflatable mattress, visible at full size."
+  },
+  {
+    "id": "rejected-m3-bed-bench-20",
+    "category": "accommodations",
+    "from": "m3-bed-bench",
+    "n": 20,
+    "reason": "Branded inflatable mattress visible at full size."
+  },
+  {
+    "id": "rejected-m2-lounge-24",
+    "category": "interiors",
+    "from": "m2-lounge",
+    "n": 24,
+    "reason": "Kitchen fridge in frame and visible grain."
+  },
+  {
+    "id": "rejected-m2-library-1",
+    "category": "interiors",
+    "from": "m2-library",
+    "n": 1,
+    "reason": "Reads as a therapy office; legible German titles and an off-white cast."
+  },
+  {
+    "id": "rejected-m2-library-15",
+    "category": "interiors",
+    "from": "m2-library",
+    "n": 15,
+    "reason": "Legible Turkish book titles identify an unrelated location."
+  },
+  {
+    "id": "rejected-m3-nook-1",
+    "category": "interiors",
+    "from": "m3-nook",
+    "n": 1,
+    "reason": "Urban street view and heavy foreground blur."
+  },
+  {
+    "id": "rejected-m3-nook-4",
+    "category": "interiors",
+    "from": "m3-nook",
+    "n": 4,
+    "reason": "Cluttered log-cabin room with German titles; inconsistent style."
+  },
+  {
+    "id": "rejected-m2-entrance-1",
+    "category": "exterior",
+    "from": "m2-entrance",
+    "n": 1,
+    "reason": "Luxury travertine villa; architecture does not match the residence."
+  },
+  {
+    "id": "rejected-m3-door-24",
+    "category": "exterior",
+    "from": "m3-door",
+    "n": 24,
+    "reason": "East Asian shopfront; unrelated location."
+  },
+  {
+    "id": "rejected-m2-arch-detail-29",
+    "category": "exterior",
+    "from": "m2-arch-detail",
+    "n": 29,
+    "reason": "Monochrome conversion breaks the color standard."
+  },
+  {
+    "id": "rejected-m2-arch-detail-0",
+    "category": "exterior",
+    "from": "m2-arch-detail",
+    "n": 0,
+    "reason": "Facade shows four floors of an apartment block."
+  },
+  {
+    "id": "rejected-m2-courtyard2-12",
+    "category": "outdoors",
+    "from": "m2-courtyard2",
+    "n": 12,
+    "reason": "Japanese temple architecture; unrelated location."
+  },
+  {
+    "id": "rejected-m3-breezeway-25",
+    "category": "interiors",
+    "from": "m3-breezeway",
+    "n": 25,
+    "reason": "Japanese museum corridor with a visitor sign."
+  },
+  {
+    "id": "rejected-m3-breezeway-29",
+    "category": "outdoors",
+    "from": "m3-breezeway",
+    "n": 29,
+    "reason": "Double exposure through glass; confusing and over-processed."
+  },
+  {
+    "id": "rejected-m2-walkway-28",
+    "category": "outdoors",
+    "from": "m2-walkway",
+    "n": 28,
+    "reason": "Tropical planting and fire extinguisher along the walkway."
+  },
+  {
+    "id": "rejected-m2-fire-table-14",
+    "category": "outdoors",
+    "from": "m2-fire-table",
+    "n": 14,
+    "reason": "Corrugated fence and brick paving read as a suburban backyard elsewhere."
+  },
+  {
+    "id": "rejected-m2-fire2-11",
+    "category": "outdoors",
+    "from": "m2-fire2",
+    "n": 11,
+    "reason": "Young couple at a campfire; wrong audience and setting."
+  },
+  {
+    "id": "rejected-m3-fire-pnw-2",
+    "category": "outdoors",
+    "from": "m3-fire-pnw",
+    "n": 2,
+    "reason": "Red plastic chairs and a charcoal bag in frame; noisy sky."
+  },
+  {
+    "id": "rejected-m3-fire-pnw-18",
+    "category": "outdoors",
+    "from": "m3-fire-pnw",
+    "n": 18,
+    "reason": "Backlit silhouette with soft focus and no visible fire."
+  }
+]

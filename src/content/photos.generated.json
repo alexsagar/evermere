@@ -1,0 +1,1234 @@
+{
+  "exterior-residence-pines": {
+    "src": "/photos/exterior/exterior-residence-pines.webp",
+    "width": 3840,
+    "height": 2563,
+    "bytes": 3138878,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-residence-pines.jpg",
+      "width": 7360,
+      "height": 4912,
+      "bytes": 9779570
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 7598376,
+      "pageUrl": "https://www.pexels.com/photo/a-concrete-walk-path-to-a-brick-and-concrete-building-7598376/",
+      "photographer": "Max Vakhtbovych",
+      "photographerUrl": "https://www.pexels.com/@artbovich",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-residence-garden-side": {
+    "src": "/photos/exterior/exterior-residence-garden-side.webp",
+    "width": 3840,
+    "height": 2563,
+    "bytes": 3219944,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-residence-garden-side.jpg",
+      "width": 7356,
+      "height": 4909,
+      "bytes": 9606974
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 7598377,
+      "pageUrl": "https://www.pexels.com/photo/a-house-with-a-modern-design-7598377/",
+      "photographer": "Max Vakhtbovych",
+      "photographerUrl": "https://www.pexels.com/@artbovich",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-residence-evening-pines": {
+    "src": "/photos/exterior/exterior-residence-evening-pines.webp",
+    "width": 3840,
+    "height": 2563,
+    "bytes": 3328160,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-residence-evening-pines.jpg",
+      "width": 7360,
+      "height": 4912,
+      "bytes": 10128104
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 7598378,
+      "pageUrl": "https://www.pexels.com/photo/a-house-with-a-modern-design-7598378/",
+      "photographer": "Max Vakhtbovych",
+      "photographerUrl": "https://www.pexels.com/@artbovich",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-entrance-cedar": {
+    "src": "/photos/exterior/exterior-entrance-cedar.webp",
+    "width": 2133,
+    "height": 3200,
+    "bytes": 632874,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-entrance-cedar.jpg",
+      "width": 4000,
+      "height": 6000,
+      "bytes": 2666127
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 31372129,
+      "pageUrl": "https://www.pexels.com/photo/modern-wooden-house-entrance-with-greenery-31372129/",
+      "photographer": "Iulian Sandu",
+      "photographerUrl": "https://www.pexels.com/@iulian-sandu-294198313",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-cedar-slats-sky": {
+    "src": "/photos/exterior/exterior-cedar-slats-sky.webp",
+    "width": 2133,
+    "height": 3200,
+    "bytes": 313362,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-cedar-slats-sky.jpg",
+      "width": 4118,
+      "height": 6177,
+      "bytes": 2177687
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 26063238,
+      "pageUrl": "https://www.pexels.com/photo/corner-of-wooden-building-26063238/",
+      "photographer": "Alper Tunga Danyıldız",
+      "photographerUrl": "https://www.pexels.com/@alper-tunga-danyildiz-25433489",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-slatted-garden-walk": {
+    "src": "/photos/exterior/exterior-slatted-garden-walk.webp",
+    "width": 2272,
+    "height": 3200,
+    "bytes": 800868,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-slatted-garden-walk.jpg",
+      "width": 4583,
+      "height": 6454,
+      "bytes": 3474566
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 17612096,
+      "pageUrl": "https://www.pexels.com/photo/wooden-walls-around-cobblestone-alley-17612096/",
+      "photographer": "Gül Işık",
+      "photographerUrl": "https://www.pexels.com/@ekrulila",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "surroundings-lake-mist-shore": {
+    "src": "/photos/surroundings/surroundings-lake-mist-shore.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 302190,
+    "original": {
+      "path": "assets/photos/originals/surroundings/surroundings-lake-mist-shore.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 1379153
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 12527037,
+      "pageUrl": "https://www.pexels.com/photo/lake-surrounded-by-trees-covered-with-fog-12527037/",
+      "photographer": "eberhard grossgasteiger",
+      "photographerUrl": "https://www.pexels.com/@eberhardgross",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "surroundings-lake-dawn-pines": {
+    "src": "/photos/surroundings/surroundings-lake-dawn-pines.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 652252,
+    "original": {
+      "path": "assets/photos/originals/surroundings/surroundings-lake-dawn-pines.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 1954657
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 18393066,
+      "pageUrl": "https://www.pexels.com/photo/forest-by-lake-18393066/",
+      "photographer": "pa reh",
+      "photographerUrl": "https://www.pexels.com/@pa-reh-730264360",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "surroundings-dock-first-light": {
+    "src": "/photos/surroundings/surroundings-dock-first-light.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 1633140,
+    "original": {
+      "path": "assets/photos/originals/surroundings/surroundings-dock-first-light.jpg",
+      "width": 6192,
+      "height": 4128,
+      "bytes": 4857810
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 23990737,
+      "pageUrl": "https://www.pexels.com/photo/calm-lake-with-wooden-docks-23990737/",
+      "photographer": "Lorenzo Manera",
+      "photographerUrl": "https://www.pexels.com/@lorenzo-manera-686693293",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "interiors-commons-fireplace": {
+    "src": "/photos/interiors/interiors-commons-fireplace.webp",
+    "width": 2560,
+    "height": 1708,
+    "bytes": 504938,
+    "original": {
+      "path": "assets/photos/originals/interiors/interiors-commons-fireplace.jpg",
+      "width": 8193,
+      "height": 5464,
+      "bytes": 5619675
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 20773072,
+      "pageUrl": "https://www.pexels.com/photo/empty-interior-of-a-modern-living-room-with-a-fireplace-20773072/",
+      "photographer": "C.L. Russell",
+      "photographerUrl": "https://www.pexels.com/@c-l-russell-1110690659",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "interiors-commons-tall-windows": {
+    "src": "/photos/interiors/interiors-commons-tall-windows.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 414146,
+    "original": {
+      "path": "assets/photos/originals/interiors/interiors-commons-tall-windows.jpg",
+      "width": 8457,
+      "height": 5638,
+      "bytes": 3471553
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 11408618,
+      "pageUrl": "https://www.pexels.com/photo/brown-sofa-in-a-living-room-11408618/",
+      "photographer": "Jack Davis",
+      "photographerUrl": "https://www.pexels.com/@jack-davis-86003658",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "interiors-garden-room": {
+    "src": "/photos/interiors/interiors-garden-room.webp",
+    "width": 2560,
+    "height": 1709,
+    "bytes": 876364,
+    "original": {
+      "path": "assets/photos/originals/interiors/interiors-garden-room.jpg",
+      "width": 7342,
+      "height": 4900,
+      "bytes": 5472029
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 8143705,
+      "pageUrl": "https://www.pexels.com/photo/wicker-dining-set-near-glass-doors-and-windows-8143705/",
+      "photographer": "Max Vakhtbovych",
+      "photographerUrl": "https://www.pexels.com/@artbovich",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "accommodations-studio-suite": {
+    "src": "/photos/accommodations/accommodations-studio-suite.webp",
+    "width": 2560,
+    "height": 1709,
+    "bytes": 724384,
+    "original": {
+      "path": "assets/photos/originals/accommodations/accommodations-studio-suite.jpg",
+      "width": 7360,
+      "height": 4912,
+      "bytes": 9097214
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 2082093,
+      "pageUrl": "https://www.pexels.com/photo/photo-of-bedroom-2082093/",
+      "photographer": "Dmitry Zvolskiy",
+      "photographerUrl": "https://www.pexels.com/@zvolskiy",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "accommodations-bathroom-shower": {
+    "src": "/photos/accommodations/accommodations-bathroom-shower.webp",
+    "width": 2200,
+    "height": 3200,
+    "bytes": 464544,
+    "original": {
+      "path": "assets/photos/originals/accommodations/accommodations-bathroom-shower.jpg",
+      "width": 4479,
+      "height": 6514,
+      "bytes": 3653809
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 8142053,
+      "pageUrl": "https://www.pexels.com/photo/clear-glass-shower-stall-with-stainless-steel-shower-head-8142053/",
+      "photographer": "Max Vakhtbovych",
+      "photographerUrl": "https://www.pexels.com/@artbovich",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-room-forest-windows": {
+    "src": "/photos/dining/dining-room-forest-windows.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 349310,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-room-forest-windows.jpg",
+      "width": 8000,
+      "height": 5334,
+      "bytes": 3344542
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36777576,
+      "pageUrl": "https://www.pexels.com/photo/modern-dining-room-with-large-windows-and-rug-36777576/",
+      "photographer": "Curtis Adams",
+      "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-room-garden-light": {
+    "src": "/photos/dining/dining-room-garden-light.webp",
+    "width": 2560,
+    "height": 1745,
+    "bytes": 374430,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-room-garden-light.jpg",
+      "width": 7190,
+      "height": 4900,
+      "bytes": 3674305
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 7061666,
+      "pageUrl": "https://www.pexels.com/photo/dining-zone-with-stylish-lamps-above-table-7061666/",
+      "photographer": "Max Vakhtbovych",
+      "photographerUrl": "https://www.pexels.com/@artbovich",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-salmon-plate": {
+    "src": "/photos/dining/dining-salmon-plate.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 177176,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-salmon-plate.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 2170789
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 17803243,
+      "pageUrl": "https://www.pexels.com/photo/meal-on-plate-17803243/",
+      "photographer": "pipop kunachon",
+      "photographerUrl": "https://www.pexels.com/@daddysky",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-seasonal-plate": {
+    "src": "/photos/dining/dining-seasonal-plate.webp",
+    "width": 2560,
+    "height": 1920,
+    "bytes": 245022,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-seasonal-plate.jpg",
+      "width": 8428,
+      "height": 6321,
+      "bytes": 4230690
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 17517943,
+      "pageUrl": "https://www.pexels.com/photo/fried-meat-with-sauce-and-carrots-17517943/",
+      "photographer": "Nadin Sh",
+      "photographerUrl": "https://www.pexels.com/@nadin-sh-78971847",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-summer-salad": {
+    "src": "/photos/dining/dining-summer-salad.webp",
+    "width": 2560,
+    "height": 1920,
+    "bytes": 375254,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-summer-salad.jpg",
+      "width": 8428,
+      "height": 6321,
+      "bytes": 4994709
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 17761083,
+      "pageUrl": "https://www.pexels.com/photo/vegetables-on-plate-17761083/",
+      "photographer": "Nadin Sh",
+      "photographerUrl": "https://www.pexels.com/@nadin-sh-78971847",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-morning-coffee": {
+    "src": "/photos/dining/dining-morning-coffee.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 62034,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-morning-coffee.jpg",
+      "width": 8640,
+      "height": 5760,
+      "bytes": 918690
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 35452847,
+      "pageUrl": "https://www.pexels.com/photo/serene-morning-coffee-cup-in-sunlit-cafe-35452847/",
+      "photographer": "Andras Stefuca",
+      "photographerUrl": "https://www.pexels.com/@shtefutsa",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-breakfast-table": {
+    "src": "/photos/dining/dining-breakfast-table.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 212616,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-breakfast-table.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 1426810
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 14686500,
+      "pageUrl": "https://www.pexels.com/photo/tasty-croissants-on-the-white-ceramic-plate-14686500/",
+      "photographer": "Kubra YETER",
+      "photographerUrl": "https://www.pexels.com/@kubra-yeter-53087376",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "dining-couple-toast": {
+    "src": "/photos/dining/dining-couple-toast.webp",
+    "width": 2560,
+    "height": 1709,
+    "bytes": 217490,
+    "original": {
+      "path": "assets/photos/originals/dining/dining-couple-toast.jpg",
+      "width": 6016,
+      "height": 4016,
+      "bytes": 1588562
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 6950736,
+      "pageUrl": "https://www.pexels.com/photo/elderly-man-and-woman-holding-glass-of-wine-6950736/",
+      "photographer": "Kampus Production",
+      "photographerUrl": "https://www.pexels.com/@kampus",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-reading-window": {
+    "src": "/photos/lifestyle/lifestyle-reading-window.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 250754,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-reading-window.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 2680044
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 6874089,
+      "pageUrl": "https://www.pexels.com/photo/elderly-woman-reading-textbook-against-tea-and-cookies-in-house-6874089/",
+      "photographer": "Teona Swift",
+      "photographerUrl": "https://www.pexels.com/@teona-swift",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-coffee-window": {
+    "src": "/photos/lifestyle/lifestyle-coffee-window.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 198228,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-coffee-window.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 2523093
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 6874522,
+      "pageUrl": "https://www.pexels.com/photo/woman-sitting-in-an-armchair-and-drinking-coffee-6874522/",
+      "photographer": "Teona Swift",
+      "photographerUrl": "https://www.pexels.com/@teona-swift",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-reading-smile": {
+    "src": "/photos/lifestyle/lifestyle-reading-smile.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 139978,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-reading-smile.jpg",
+      "width": 6541,
+      "height": 4361,
+      "bytes": 2530255
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 6158662,
+      "pageUrl": "https://www.pexels.com/photo/man-reading-book-6158662/",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-reading-armchair": {
+    "src": "/photos/lifestyle/lifestyle-reading-armchair.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 95502,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-reading-armchair.jpg",
+      "width": 6441,
+      "height": 4294,
+      "bytes": 2449515
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 6916281,
+      "pageUrl": "https://www.pexels.com/photo/woman-in-white-robe-sitting-on-brown-couch-6916281/",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-watercolor-window": {
+    "src": "/photos/lifestyle/lifestyle-watercolor-window.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 211094,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-watercolor-window.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 2152429
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 7859521,
+      "pageUrl": "https://www.pexels.com/photo/a-woman-painting-an-artwork-in-a-sketchpad-7859521/",
+      "photographer": "Greta Hoffman",
+      "photographerUrl": "https://www.pexels.com/@greta-hoffman",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-brush-detail": {
+    "src": "/photos/lifestyle/lifestyle-brush-detail.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 153824,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-brush-detail.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 1717784
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 29559069,
+      "pageUrl": "https://www.pexels.com/photo/close-up-of-hands-painting-a-watercolor-landscape-29559069/",
+      "photographer": "Fahad Puthawala",
+      "photographerUrl": "https://www.pexels.com/@fahadputhawala",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-cards-friends": {
+    "src": "/photos/lifestyle/lifestyle-cards-friends.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 220280,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-cards-friends.jpg",
+      "width": 6720,
+      "height": 4480,
+      "bytes": 1713774
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 8086754,
+      "pageUrl": "https://www.pexels.com/photo/three-elderly-women-playing-cards-8086754/",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-cards-couple": {
+    "src": "/photos/lifestyle/lifestyle-cards-couple.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 462286,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-cards-couple.jpg",
+      "width": 6419,
+      "height": 4279,
+      "bytes": 3817621
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 38774933,
+      "pageUrl": "https://www.pexels.com/photo/elderly-couple-enjoying-card-game-indoors-38774933/",
+      "photographer": "Jelly Marketing",
+      "photographerUrl": "https://www.pexels.com/@jellymarketing",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-conversation-plants": {
+    "src": "/photos/lifestyle/lifestyle-conversation-plants.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 338582,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-conversation-plants.jpg",
+      "width": 6720,
+      "height": 4480,
+      "bytes": 3810469
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 6787761,
+      "pageUrl": "https://www.pexels.com/photo/woman-smiling-while-looking-at-her-man-6787761/",
+      "photographer": "Marcus Aurelius",
+      "photographerUrl": "https://www.pexels.com/@marcus-aurelius",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-piano": {
+    "src": "/photos/lifestyle/lifestyle-piano.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 260808,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-piano.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 2618493
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 10251762,
+      "pageUrl": "https://www.pexels.com/photo/man-in-a-suit-playing-the-piano-10251762/",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-stretch-class": {
+    "src": "/photos/lifestyle/lifestyle-stretch-class.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 373450,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-stretch-class.jpg",
+      "width": 6202,
+      "height": 4135,
+      "bytes": 2629872
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 5992856,
+      "pageUrl": "https://www.pexels.com/photo/women-meditating-5992856/",
+      "photographer": "Kampus Production",
+      "photographerUrl": "https://www.pexels.com/@kampus",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-grandchild-photos": {
+    "src": "/photos/lifestyle/lifestyle-grandchild-photos.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 286942,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-grandchild-photos.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 4032919
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 5591205,
+      "pageUrl": "https://www.pexels.com/photo/a-family-sitting-at-the-table-5591205/",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-garden-harvest": {
+    "src": "/photos/lifestyle/lifestyle-garden-harvest.webp",
+    "width": 2560,
+    "height": 1709,
+    "bytes": 387892,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-garden-harvest.jpg",
+      "width": 6016,
+      "height": 4016,
+      "bytes": 2087550
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 7658811,
+      "pageUrl": "https://www.pexels.com/photo/an-elderly-man-in-a-vegetable-garden-7658811/",
+      "photographer": "Kampus Production",
+      "photographerUrl": "https://www.pexels.com/@kampus",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "lifestyle-garden-smile": {
+    "src": "/photos/lifestyle/lifestyle-garden-smile.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 587138,
+    "original": {
+      "path": "assets/photos/originals/lifestyle/lifestyle-garden-smile.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 2628902
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 9710821,
+      "pageUrl": "https://www.pexels.com/photo/smiling-elderly-woman-cutting-trees-and-bushes-in-garden-9710821/",
+      "photographer": "Centre for Ageing Better",
+      "photographerUrl": "https://www.pexels.com/@centre-for-ageing-better-55954677",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-kitchen-garden": {
+    "src": "/photos/outdoors/outdoors-kitchen-garden.webp",
+    "width": 3840,
+    "height": 2562,
+    "bytes": 3612450,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-kitchen-garden.jpg",
+      "width": 8368,
+      "height": 5584,
+      "bytes": 11809481
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 38585885,
+      "pageUrl": "https://www.pexels.com/photo/colorful-vegetable-garden-with-gardening-tools-38585885/",
+      "photographer": "Bob Jenkin",
+      "photographerUrl": "https://www.pexels.com/@bob-jenkin-2007649943",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-lakeside-path": {
+    "src": "/photos/outdoors/outdoors-lakeside-path.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 1575318,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-lakeside-path.jpg",
+      "width": 8256,
+      "height": 5504,
+      "bytes": 6612469
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 33075964,
+      "pageUrl": "https://www.pexels.com/photo/scenic-lakeside-pathway-with-benches-in-forest-33075964/",
+      "photographer": "Guohua Song",
+      "photographerUrl": "https://www.pexels.com/@railgunbreaker",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-bench-misty-lake": {
+    "src": "/photos/outdoors/outdoors-bench-misty-lake.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 776978,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-bench-misty-lake.jpg",
+      "width": 6000,
+      "height": 4000,
+      "bytes": 2304847
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 29343056,
+      "pageUrl": "https://www.pexels.com/photo/tranquil-misty-autumn-lake-with-forest-view-29343056/",
+      "photographer": "Surdu Horia",
+      "photographerUrl": "https://www.pexels.com/@surdu-horia-743788511",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-chairs-dock": {
+    "src": "/photos/outdoors/outdoors-chairs-dock.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 332518,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-chairs-dock.jpg",
+      "width": 6240,
+      "height": 4160,
+      "bytes": 1813887
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 14332063,
+      "pageUrl": "https://www.pexels.com/photo/two-deck-chairs-by-the-lake-in-quebec-14332063/",
+      "photographer": "Luc",
+      "photographerUrl": "https://www.pexels.com/@luc-241207200",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-walk-lakeside-trees": {
+    "src": "/photos/outdoors/outdoors-walk-lakeside-trees.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 1592546,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-walk-lakeside-trees.jpg",
+      "width": 6595,
+      "height": 4397,
+      "bytes": 4420480
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 8795091,
+      "pageUrl": "https://www.pexels.com/photo/affectionate-elderly-couples-walking-in-a-park-8795091/",
+      "photographer": "Anastasia  Shuraeva",
+      "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-walk-path-together": {
+    "src": "/photos/outdoors/outdoors-walk-path-together.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 600326,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-walk-path-together.jpg",
+      "width": 6370,
+      "height": 4247,
+      "bytes": 2408067
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 8796067,
+      "pageUrl": "https://www.pexels.com/photo/man-and-woman-walking-on-the-park-8796067/",
+      "photographer": "Anastasia  Shuraeva",
+      "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-couple-by-water": {
+    "src": "/photos/outdoors/outdoors-couple-by-water.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 523622,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-couple-by-water.jpg",
+      "width": 6720,
+      "height": 4480,
+      "bytes": 2475444
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 8796052,
+      "pageUrl": "https://www.pexels.com/photo/close-up-photo-of-an-elderly-couple-8796052/",
+      "photographer": "Anastasia  Shuraeva",
+      "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "accommodations-suite-pines": {
+    "src": "/photos/accommodations/accommodations-suite-pines.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 334844,
+    "original": {
+      "path": "assets/photos/originals/accommodations/accommodations-suite-pines.jpg",
+      "width": 8000,
+      "height": 5334,
+      "bytes": 3361564
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36777598,
+      "pageUrl": "https://www.pexels.com/photo/modern-sunlit-bedroom-interior-design-36777598/",
+      "photographer": "Curtis Adams",
+      "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "accommodations-suite-doorway": {
+    "src": "/photos/accommodations/accommodations-suite-doorway.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 215896,
+    "original": {
+      "path": "assets/photos/originals/accommodations/accommodations-suite-doorway.jpg",
+      "width": 8000,
+      "height": 5334,
+      "bytes": 2610693
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36777563,
+      "pageUrl": "https://www.pexels.com/photo/modern-minimalist-bedroom-interior-design-36777563/",
+      "photographer": "Curtis Adams",
+      "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "accommodations-suite-forest-mirror": {
+    "src": "/photos/accommodations/accommodations-suite-forest-mirror.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 355150,
+    "original": {
+      "path": "assets/photos/originals/accommodations/accommodations-suite-forest-mirror.jpg",
+      "width": 6675,
+      "height": 4450,
+      "bytes": 3133888
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 13053974,
+      "pageUrl": "https://www.pexels.com/photo/mirrors-in-room-13053974/",
+      "photographer": "Andrea Davis",
+      "photographerUrl": "https://www.pexels.com/@andreaedavis",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "accommodations-suite-bedroom-bath": {
+    "src": "/photos/accommodations/accommodations-suite-bedroom-bath.webp",
+    "width": 2560,
+    "height": 1708,
+    "bytes": 283750,
+    "original": {
+      "path": "assets/photos/originals/accommodations/accommodations-suite-bedroom-bath.jpg",
+      "width": 8000,
+      "height": 5336,
+      "bytes": 4387130
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36777978,
+      "pageUrl": "https://www.pexels.com/photo/modern-bedroom-interior-with-orange-accents-36777978/",
+      "photographer": "Curtis Adams",
+      "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "accommodations-suite-garden-doors": {
+    "src": "/photos/accommodations/accommodations-suite-garden-doors.webp",
+    "width": 2560,
+    "height": 1705,
+    "bytes": 219538,
+    "original": {
+      "path": "assets/photos/originals/accommodations/accommodations-suite-garden-doors.jpg",
+      "width": 8100,
+      "height": 5395,
+      "bytes": 2437653
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36749687,
+      "pageUrl": "https://www.pexels.com/photo/luxurious-modern-hotel-room-with-a-forest-view-36749687/",
+      "photographer": "aksinfo7 universe",
+      "photographerUrl": "https://www.pexels.com/@aksinfo7",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "interiors-library-fireplace": {
+    "src": "/photos/interiors/interiors-library-fireplace.webp",
+    "width": 2560,
+    "height": 1919,
+    "bytes": 367300,
+    "original": {
+      "path": "assets/photos/originals/interiors/interiors-library-fireplace.jpg",
+      "width": 8280,
+      "height": 6208,
+      "bytes": 5112761
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 4353719,
+      "pageUrl": "https://www.pexels.com/photo/cozy-interior-with-bookshelves-and-fireplace-4353719/",
+      "photographer": "ArtHouse Studio",
+      "photographerUrl": "https://www.pexels.com/@arthousestudio",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "interiors-lounge-clerestory": {
+    "src": "/photos/interiors/interiors-lounge-clerestory.webp",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 363684,
+    "original": {
+      "path": "assets/photos/originals/interiors/interiors-lounge-clerestory.jpg",
+      "width": 8000,
+      "height": 5334,
+      "bytes": 3350964
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36777522,
+      "pageUrl": "https://www.pexels.com/photo/modern-cozy-living-room-with-minimalist-decor-36777522/",
+      "photographer": "Curtis Adams",
+      "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "interiors-front-door-open": {
+    "src": "/photos/interiors/interiors-front-door-open.webp",
+    "width": 2560,
+    "height": 1708,
+    "bytes": 360894,
+    "original": {
+      "path": "assets/photos/originals/interiors/interiors-front-door-open.jpg",
+      "width": 8000,
+      "height": 5336,
+      "bytes": 5586402
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36777887,
+      "pageUrl": "https://www.pexels.com/photo/inviting-front-entrance-with-open-door-and-scenic-view-36777887/",
+      "photographer": "Curtis Adams",
+      "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-residence-stone-cedar": {
+    "src": "/photos/exterior/exterior-residence-stone-cedar.webp",
+    "width": 3840,
+    "height": 2563,
+    "bytes": 2674174,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-residence-stone-cedar.jpg",
+      "width": 6307,
+      "height": 4209,
+      "bytes": 6460142
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 7598374,
+      "pageUrl": "https://www.pexels.com/photo/a-house-with-a-modern-design-7598374/",
+      "photographer": "Max Vakhtbovych",
+      "photographerUrl": "https://www.pexels.com/@artbovich",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-cedar-shingle-light": {
+    "src": "/photos/exterior/exterior-cedar-shingle-light.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 769734,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-cedar-shingle-light.jpg",
+      "width": 6720,
+      "height": 4480,
+      "bytes": 3802177
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 36486532,
+      "pageUrl": "https://www.pexels.com/photo/rustic-cedar-shingle-house-in-evening-light-36486532/",
+      "photographer": "Brent Singleton",
+      "photographerUrl": "https://www.pexels.com/@brentsingletonphoto",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "exterior-glass-gallery-forest": {
+    "src": "/photos/exterior/exterior-glass-gallery-forest.webp",
+    "width": 3840,
+    "height": 2562,
+    "bytes": 1161298,
+    "original": {
+      "path": "assets/photos/originals/exterior/exterior-glass-gallery-forest.jpg",
+      "width": 6016,
+      "height": 4014,
+      "bytes": 3186893
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 34794609,
+      "pageUrl": "https://www.pexels.com/photo/modern-cabin-in-autumn-forest-landscape-34794609/",
+      "photographer": "Abdullah Öğük",
+      "photographerUrl": "https://www.pexels.com/@abdullahoguk",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-timber-walkway": {
+    "src": "/photos/outdoors/outdoors-timber-walkway.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 1099322,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-timber-walkway.jpg",
+      "width": 6240,
+      "height": 4160,
+      "bytes": 3413072
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 33987964,
+      "pageUrl": "https://www.pexels.com/photo/modern-architectural-structure-blending-nature-33987964/",
+      "photographer": "Wellington  Franzao",
+      "photographerUrl": "https://www.pexels.com/@wellington-franzao-295720526",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  },
+  "outdoors-fire-table-deck": {
+    "src": "/photos/outdoors/outdoors-fire-table-deck.webp",
+    "width": 3840,
+    "height": 2560,
+    "bytes": 2036574,
+    "original": {
+      "path": "assets/photos/originals/outdoors/outdoors-fire-table-deck.jpg",
+      "width": 6720,
+      "height": 4480,
+      "bytes": 6474581
+    },
+    "source": {
+      "provider": "Pexels",
+      "providerId": 9584819,
+      "pageUrl": "https://www.pexels.com/photo/patio-with-fireplace-9584819/",
+      "photographer": "Nasim Didar",
+      "photographerUrl": "https://www.pexels.com/@nasim-didar-1990505",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "acquired": "2026-11-25"
+    }
+  }
+}
